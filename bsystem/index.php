@@ -2,7 +2,7 @@
 	$page_title='Barangay System';
 	$stylesheet_link='style';
 
-	require 'header.php';
+	require 'header1.php';
 ?>
 <main>
 <center><div class="login_layout">

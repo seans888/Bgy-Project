@@ -62,7 +62,10 @@ header
 	position: absolute;
 
 }
-
+.wrapper {
+	min-height: 50px;
+	text-align: left;
+}
 .logo
 {
 	width: 150px;
@@ -144,7 +147,26 @@ a
 	margin: 50px;
 	border-radius: 10px;
 }
+.text
+{
+	color: black;
+	font-size: 15px;	
+	margin-top: 10px;
 
+}
+.textbox1
+{
+	text-align: center;
+	color: black;
+	border-style: solid;
+	border-color: #ebebeb;
+	border-radius: 5px;
+	height: 40px;
+	font-family: verdana;
+	width: 350px;
+	margin-top: 40px;
+	
+}
 .ftnav{
 	position: absolute;
 	right: 0px;
@@ -160,8 +182,49 @@ a
 	color: white;
 
 }
+.icon
+{
+	margin: 5px;
+}
+.dropbtn
+{
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 20px;
+	border:none;
+	cursor: pointer;
+}
+.dropdown
+{
+	position:relative;
+	display: inline-block;
+}
+.dropdown-content
+{
+	display: none;
+	position:absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a
+{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover
+{
+	background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
 
-.icon{
-margin: 5px;
-
+.dropdown:hover .dropbtn 
+{
+    background-color: #3e8e41;
 }

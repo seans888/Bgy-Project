@@ -19,6 +19,14 @@
 				<li><a href="about.php">About</a></li>
 				<li><a href="contact.php">Contact Us</a></li>
 			</ul>
+			<div class="dropdown font nav">
+				<button class="dropbtn">Services</button>
+				<div class="dropdown-content">
+					<a href="Documents">Documents</a>
+					<a href="Health">Health</a>
+					<a href="Education">Education</a>
+				</div>
+			</div>
 		</header>
 	</div>
 
