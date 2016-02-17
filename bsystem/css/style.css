@@ -62,10 +62,7 @@ header
 	position: absolute;
 
 }
-.wrapper {
-	min-height: 50px;
-	text-align: left;
-}
+
 .logo
 {
 	width: 150px;
@@ -146,4 +143,25 @@ a
 	border:1px solid black;
 	margin: 50px;
 	border-radius: 10px;
+}
+
+.ftnav{
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	width: 320px;
+	height: 60px;
+
+}
+.copyrights{
+	position: absolute;
+	top: 40%;
+	left: 35px;
+	color: white;
+
+}
+
+.icon{
+margin: 5px;
+
 }

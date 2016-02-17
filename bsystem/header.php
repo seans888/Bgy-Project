@@ -12,7 +12,7 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<img class="logo" src="images/logo.png"></img>
+			<a href="index.php"><img class="logo" src="images/logo.png"></img></a>
 			<font class="font title">Barangay System</font>
 
 			<ul class="font nav">
