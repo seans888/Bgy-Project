@@ -1,17 +1,9 @@
 <?php
 
 ?>
-<!DOCTYPE htmll>
-<html>
-<head>
-	<title><?php echo $page_title; ?></title>
-	<link rel="stylesheet" type="text/css" href="css/<?php echo $stylesheet_link; ?>.css"/>
-</head>
-
-<body>
 
 		<footer class="footer">
-			<p class="copyrights">&copy; &nbsp;&nbsp; Copyright. &nbsp;|&nbsp; Barangay System</p>
+			<p class="copyrights">&copy; &nbsp;&nbsp; Copyright. 2016 &nbsp;|&nbsp; Barangay System</p>
 
 			<div class="ftnav">
 				<a class="icon" href="https://www.facebook.com/"><img src="images/facebook.png"></img></a>
@@ -22,4 +14,5 @@
 
 
 		</footer>
-
+</body>
+</html>
