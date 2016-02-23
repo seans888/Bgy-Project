@@ -18,7 +18,7 @@
 			<font class="font title">Barangay System</font>
 			<ul>
 				<li><a href="register.php">Sign Up</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="contact.php">Contact</a></li>
 				<li><a href="#about">About</a></li>
 			</ul>
 		</header>

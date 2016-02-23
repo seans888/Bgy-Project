@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="css/<?php echo $stylesheet_link; ?>.css"/>
-	<link rel="stylesheet" type="text/css" href="css/<?php echo $rstylesheet_link; ?>.css"/ media="screen and (max-width: 900px)">
+	<link rel="stylesheet" type="text/css" href="css/<?php echo $rstylesheet_link; ?>.css"/ media="screen and (max-width: 900px">
 </head>
 
 <body>
@@ -21,8 +21,7 @@
 				<li><a href="about.php">About</a></li>
 				<ul style="float:left;list-style-type:none;">
 				
-					<li><a href="education.php">Education</a></li>
-					<li><a href="health.php">Health</a></li>
+					<li><a href="information.php">Information</a></li>
 						<li class="dropdown">
 						<a href="#" class="dropbtn">Documents</a>
 							<div class="dropdown-content">

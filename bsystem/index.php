@@ -2,7 +2,7 @@
 	$page_title='Barangay System';
 	$stylesheet_link='style';
 	$rstylesheet_link='responsive';
-	require 'header1.php';
+	require 'header.php';
 ?>
 <main>
 <div class="clearfix">

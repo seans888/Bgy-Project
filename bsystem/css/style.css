@@ -9,13 +9,13 @@ html,body
 {
 	height: 100%;
 	background-color: #e6e6e6;
+	/*background-color: #808080;*/
 
 }
 
 main
 {
 	display: inline-block;
-	padding-bottom: 110px;  
 }
 
 ul 
@@ -55,15 +55,12 @@ header
 footer
 {
 	background-color: #66a3ff;
-	padding: 0;
 	width: 100%;
 	height: 100px;
 	bottom: 0;
 	left: 0;
-	margin: 0 auto;
 	box-shadow:inset 0 0 4px black;
-	margin-top: -100px;
-
+	display: inline-block;
 }
 input[type=text]
 {
@@ -248,16 +245,20 @@ a
 	
 }
 .ftnav{
-	
+	float: right;
 	width: 320px;
 	height: 60px;
+	display: inline-block;
+	padding-top: 40px; 
+
 
 }
 .copyrights{
-	position: absolute;
-	top: 40%;
-	left: 35px;
+	padding-top: 40px; 
 	color: white;
+	display: inline-block;
+	margin-left: 50px;
+
 
 }
 .icon
@@ -291,5 +292,37 @@ div.side {
 
 .login_layout, .welcome-layout
 {
-	background-color: yellow;
+	background-color: transparent;
+}
+.contact-layout
+{
+	width: 980px;
+	height: 600px;
+	padding: 100px;
+	margin: 0 80px auto;
+	background-color: white;
+}
+.contact-header
+{
+
+	top: 170px;
+	margin-left: 400px;
+	position: absolute;
+	padding: 0 0 ;
+}
+.float-box
+{
+    float: left;
+    width: 210px;
+    height: 300px;
+    margin: 10px;
+    margin-left: 80px;
+    border: 3px solid transparent; 
+
+}
+.img
+{
+	width: 150px;
+	height: 150px;
+	padding: 10px 25px;
 }
