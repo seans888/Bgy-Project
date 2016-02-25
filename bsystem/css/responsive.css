@@ -4,7 +4,6 @@
 	font-size: 28px;
 	margin-left: 10px;
 	top: 5%;
-	position: absolute;
 
 }
 
@@ -71,6 +70,15 @@ footer
 }
 
 @media screen and (max-width: 500px) {
+	.title
+{
+	color: #ffffff;
+	font-size: 28px;
+	margin-left: 10px;
+	top: 5%;
+	position: absolute;
+
+}
 footer
 {
 	margin-top: 30px;

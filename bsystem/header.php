@@ -14,12 +14,12 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<img class="logo" src="images/logo.png"></img>
+			<img class="logo" src="images/logo1.png"></img>
 			<font class="font title">Barangay System</font>
 			<ul>
 				<li><a href="register.php">Sign Up</a></li>
 				<li><a href="contact.php">Contact</a></li>
-				<li><a href="#about">About</a></li>
+				<li><a href="about.php">About</a></li>
 			</ul>
 		</header>
 	</div>
