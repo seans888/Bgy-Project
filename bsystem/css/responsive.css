@@ -1,3 +1,13 @@
+.title
+{
+	color: #ffffff;
+	font-size: 28px;
+	margin-left: 10px;
+	top: 5%;
+	position: absolute;
+
+}
+
 .one-half {
 	width: 100%;
 }
@@ -18,7 +28,36 @@ div.nav ul li {
 	border-bottom: 1px solid #bababa;
 }
 
+.icon
+{
+	margin: 0px;
+}
+
+.ftnav{
+	float: none;
+	margin-left: 20px;
+	padding-top: 10px; 
+
+}
+
+.copyrights{
+	padding-top: 10px; 
+	color: white;
+	margin-left: 10px;
+}
+
+footer
+{
+	margin-top: 30px;
+	background-color: #66a3ff;
+	width: 100%;
+	height: 100px;
+	box-shadow:inset 0 0 4px black;
+
+}
+
 @media screen and (max-width: 900px) {
+
 	div.nav ul li 
 	{
 		width: 33%;
@@ -32,7 +71,17 @@ div.nav ul li {
 }
 
 @media screen and (max-width: 500px) {
-	
+footer
+{
+	margin-top: 30px;
+	padding-top: 0;
+	background-color: #66a3ff;
+	width: 100%;
+	box-shadow:inset 0 0 4px black;
+
+}
+
+
 	div.nav ul li {
 		width: 50%;
 		font-size: 85%;

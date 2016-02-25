@@ -4,8 +4,8 @@
 	require 'header1.php';
 ?>
 <main>
-	<section class="body-layout">
-	</section>
+	<div class="home-layout">
+	</div>
 
 </main>
 
