@@ -1,0 +1,5 @@
+<table width="100%" border="1">
+<tr style="background-color: #999999;">
+<th align="center">#</th>    <th align="center"> Bulletin ID </th>    <th align="center"> Bulletin Date </th>    <th align="center"> Bulletin Name </th>    <th align="center"> Bulletin Description </th>    <th align="center"> Filename </th>    <th align="center"> Category </th>    <th align="center"> [Official] Official ID </th>    <th align="center"> [Official] Date Registered </th>    <th align="center"> [Official] Position </th>    <th align="center"> [Official] Term Period From </th>    <th align="center"> [Official] Term Period To </th>    </tr><tr style="background-color: #999999;">
+<th align="center">0</th></tr>
+</table>

@@ -1,0 +1,54 @@
+<table width="100%" border="1">
+<tr style="background-color: #999999;">
+<th align="center">#</th>    <th align="center"> Entry ID </th>    <th align="center"> Ip Address </th>    <th align="center"> User </th>    <th align="center"> Datetime </th>    <th align="center"> Action </th>    <th align="center"> Module </th>    </tr>    <tr class="listText">
+    <td align="center"> 1 </td>        <td align="center"> 3 </td>        <td align="left"> ::1 </td>        <td align="left"> root </td>        <td align="left"> 2016-02-15 02:14:11pm </td>        <td align="left"> Query Executed: UPDATE user SET `password`=?, `salt`=?, `iteration`=?, `method`=? WHERE username=?<br />
+Array<br />
+(<br />
+    [0] =&gt; ssiss<br />
+    [1] =&gt; $2y$12$IVw2iUcso4WaOGbWuR7FqOZloi7U.QJbP8Lx1quFG23vLAVouPos2<br />
+    [2] =&gt; IVw2iUcso4WaOGbWuR7FqQ<br />
+    [3] =&gt; 12<br />
+    [4] =&gt; blowfish<br />
+    [5] =&gt; root<br />
+)<br />
+ </td>        <td align="left"> /barangay/login.php </td>    </tr>    <tr class="listTextAlt">
+    <td align="center"> 2 </td>        <td align="center"> 6 </td>        <td align="left"> ::1 </td>        <td align="left"> root </td>        <td align="left"> 2016-02-15 02:28:40pm </td>        <td align="left"> Query Executed: UPDATE citizen SET first_name = ?, middle_name = ?, last_name = ?, house_number = ?, street = ?, barangay = ?, city = ?, region = ?, gender = ?, birth_date = ?, birth_place = ?, weight = ?, height = ?, celpphone_number = ?, telephone_number = ?, email_address = ?, nationality = ?, civil_status = ?, occupation = ?, father_first_name = ?, father_middle_name = ?, father_last_name = ?, mother_first_name = ?, mother_middle_name = ?, mother_last_name = ?, date_registered = ?, is_official = ?, proof_of_identity = ?, proof_of_address = ?, official_id = ?, password = ? WHERE citizen_id = ?<br />
+Array<br />
+(<br />
+    [0] =&gt; sssisssssssddiissssssssssssssisi<br />
+    [1] =&gt; Kamila<br />
+    [2] =&gt; Roperoga<br />
+    [3] =&gt; Lagman<br />
+    [4] =&gt; 8<br />
+    [5] =&gt; Climaco<br />
+    [6] =&gt; Bangkal<br />
+    [7] =&gt; Makati<br />
+    [8] =&gt; National Capital Region (NCR)<br />
+    [9] =&gt; Female<br />
+    [10] =&gt; 2016-02-15<br />
+    [11] =&gt; Mandaluyong<br />
+    [12] =&gt; 125<br />
+    [13] =&gt; 5<br />
+    [14] =&gt; 2147483647<br />
+    [15] =&gt; 1234567<br />
+    [16] =&gt; kamila@sample.com<br />
+    [17] =&gt; Filipino<br />
+    [18] =&gt; Single<br />
+    [19] =&gt; Student<br />
+    [20] =&gt; Danmar<br />
+    [21] =&gt; Mangulabnan<br />
+    [22] =&gt; Lagman<br />
+    [23] =&gt; Luningning<br />
+    [24] =&gt; Samson<br />
+    [25] =&gt; Roperoga<br />
+    [26] =&gt; 2016-02-15<br />
+    [27] =&gt; No<br />
+    [28] =&gt; 7ad3f406f125d864c911fa5721fa926c060013f6LagmanKamilaPOI.JPG<br />
+    [29] =&gt; 84ca4895d29fc56d86247d30e0a35cb03e759ba9LagmanKamilaPOI.JPG<br />
+    [30] =&gt; 2147483647<br />
+    [31] =&gt; Hellokitty02<br />
+    [32] =&gt; 1<br />
+)<br />
+ </td>        <td align="left"> /barangay/modules/citizen/edit_citizen.php </td>    </tr><tr style="background-color: #999999;">
+<th align="center">2</th>    <th align="center">  </th>    <th align="left">  </th>    <th align="left">  </th>    <th align="left">  </th>    <th align="left">  </th>    <th align="left">  </th></tr>
+</table>

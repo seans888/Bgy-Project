@@ -1,0 +1,4 @@
+INSERT INTO `user_links`(link_id, name, target, descriptive_title, description, passport_group_id, show_in_tasklist, `status`, icon) VALUES(null,'Add citizen', 'modules/citizen/add_citizen.php', 'Add Citizen','','1','No','On','form3.png');
+INSERT INTO `user_links`(link_id, name, target, descriptive_title, description, passport_group_id, show_in_tasklist, `status`, icon) VALUES(null,'Edit citizen', 'modules/citizen/edit_citizen.php', 'Edit Citizen','','1','No','On','form3.png');
+INSERT INTO `user_links`(link_id, name, target, descriptive_title, description, passport_group_id, show_in_tasklist, `status`, icon) VALUES(null,'View citizen', 'modules/citizen/listview_citizen.php', 'Citizen','','1','Yes','On','form3.png');
+INSERT INTO `user_links`(link_id, name, target, descriptive_title, description, passport_group_id, show_in_tasklist, `status`, icon) VALUES(null,'Delete citizen', 'modules/citizen/delete_citizen.php', 'Delete Citizen','','1','No','On','form3.png');
