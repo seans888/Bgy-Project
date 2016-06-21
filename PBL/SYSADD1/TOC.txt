@@ -1,0 +1,38 @@
+1 Table of Contents
+   2 Project Title
+   3 Project Authors
+      3.1 Professor
+      3.2 Adviser/s
+      3.3 Students
+   4 General Objectives
+   5 Specific Objectives
+   6 Target Audience
+   7 Cite related architecture
+   8 Project Description
+   9 Glossary
+   10 Project Plan and/or Network Project Plan
+      10.1 INTSDEV (Existing)
+          10.1.1  Event Table
+          10.1.2  Use Case Diagram
+             10.1.2.1  Use Case Full Description
+          10.1.3  Context Diagram 
+          10.1.4  Data Flow Diagrams
+          10.1.5  Entity Relationship Diagrams
+          10.1.6  Activity Diagram
+          10.1.7  Data Dictionary
+          10.1.8  Softcopies of Signed Status Reports
+          10.1.9  Gantt Chart/WBS/Activity List
+          10.1.10 Screenshots of Proposed System
+      10.2 SYSADD1 (Proposed)
+          10.2.1  Event Table
+          10.2.2  Use Case Diagram
+             10.2.2.1  Use Case Full Description
+          10.2.3  Context Diagram 
+          10.2.4  Data Flow Diagrams
+          10.2.5  Entity Relationship Diagrams
+          10.2.6  Activity Diagram
+          10.2.7  Data Dictionary
+          10.2.8  Softcopies of Signed Status Reports
+          10.2.9  Screenshots of Working Prototype
+   11 Developed System
+   12 Lessons Learned

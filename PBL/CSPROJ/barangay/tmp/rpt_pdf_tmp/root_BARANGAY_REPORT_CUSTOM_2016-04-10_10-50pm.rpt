@@ -1,0 +1,5 @@
+<table width="100%" border="1">
+<tr style="background-color: #999999;">
+<th align="center">#</th>    <th align="center"> Barangay ID </th>    <th align="center"> Barangay Name </th>    <th align="center"> Nscb Code </th>    <th align="center"> District Number </th>    <th align="center"> [City] City ID </th>    <th align="center"> [City] City Name </th>    <th align="center"> [City] Nscb Code </th>    </tr><tr style="background-color: #999999;">
+<th align="center">0</th></tr>
+</table>

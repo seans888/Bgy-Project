@@ -1,0 +1,5 @@
+collaboration,use case,activity,sequence
+
+activity depend sa use case
+sequence depend sa use case
+collaboration depend sa sequence f5 ONLY

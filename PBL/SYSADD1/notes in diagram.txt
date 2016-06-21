@@ -1,0 +1,23 @@
+class diagram
+
+operation to all tables except poa/poa
+
+Activity diagram
+
+split registered
+
+title (Activity diagram)
+
+check request where to go ? 
+
+combine all related usecase in 1 activity diagram
+
+Sequence diagram
+1
+box -> human
+no need for the login registered AGAD!
+combine all related process 
+
+
+
+

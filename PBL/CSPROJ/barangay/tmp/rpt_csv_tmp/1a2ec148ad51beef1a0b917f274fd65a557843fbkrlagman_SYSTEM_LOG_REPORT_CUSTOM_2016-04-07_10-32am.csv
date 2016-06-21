@@ -1,0 +1,324 @@
+#,"Entry ID","Ip Address","User","Datetime","Action","Module"
+1,"1","::1","root","2016-04-03 02:07:04am","Logged in","/barangay/login.php"
+2,"2","::1","root","2016-04-03 02:07:05am","Query Executed: UPDATE user SET `password`=?, `salt`=?, `iteration`=?, `method`=? WHERE username=?
+Array
+(
+    [0] => ssiss
+    [1] => $2y$12$bvoPGvlOQxgQb9YwOq9tNOwQxugLgcx07qSxjpJwQfO2ggO/b/sRK
+    [2] => bvoPGvlOQxgQb9YwOq9tNQ
+    [3] => 12
+    [4] => blowfish
+    [5] => root
+)
+","/barangay/login.php"
+3,"3","::1","root","2016-04-03 02:23:32am","Logged in","/barangay/login.php"
+4,"4","::1","root","2016-04-04 07:37:58am","Logged in","/barangay/login.php"
+5,"5","::1","root","2016-04-04 07:45:59am","Logged in","/barangay/login.php"
+6,"6","::1","root","2016-04-04 12:56:59pm","Pressed submit button","/barangay/modules/city/reporter_city.php"
+7,"7","::1","root","2016-04-04 01:09:35pm","Pressed submit button","/barangay/modules/bsystem/register.php"
+8,"8","::1","root","2016-04-04 01:15:28pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+9,"9","::1","root","2016-04-04 01:15:28pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+10,"10","::1","root","2016-04-04 01:15:35pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+11,"11","::1","root","2016-04-04 01:15:35pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+12,"12","::1","root","2016-04-04 01:16:54pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+13,"13","::1","root","2016-04-04 01:17:10pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+14,"14","::1","root","2016-04-04 01:19:04pm","Logged in","/barangay/modules/bsystem/main.php"
+15,"15","::1","root","2016-04-04 01:19:50pm","Logged in","/barangay/modules/bsystem/main.php"
+16,"16","::1","root","2016-04-04 01:19:50pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+17,"17","::1","root","2016-04-04 01:20:17pm","Pressed cancel button","/barangay/modules/bsystem/register.php"
+18,"18","::1","root","2016-04-04 01:21:04pm","Pressed cancel button","/barangay/modules/bsystem/register.php"
+19,"19","::1","root","2016-04-04 01:21:34pm","Pressed submit button","/barangay/modules/bsystem/register.php"
+20,"20","::1","root","2016-04-04 01:23:27pm","Logged in","/barangay/modules/bsystem/main.php"
+21,"21","::1","root","2016-04-04 01:23:27pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+22,"22","::1","root","2016-04-04 01:42:22pm","Logged in","/barangay/modules/bsystem/main.php"
+23,"23","::1","root","2016-04-04 01:42:23pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+24,"24","::1","root","2016-04-04 01:42:27pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+25,"25","::1","root","2016-04-04 01:42:28pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+26,"26","::1","root","2016-04-04 01:42:43pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+27,"27","::1","root","2016-04-04 01:48:09pm","Pressed submit button","/barangay/modules/citizen/add_citizen.php"
+28,"28","::1","root","2016-04-04 01:48:09pm","Query Executed: INSERT INTO citizen(citizen_id, first_name, middle_name, last_name, gender, birth_date, birth_place, weight, height, civil_status, occupation, cellphone_number, telephone_number, region, province, city, district, barangay, zip_code, street, house_number, nationality, username, password, email_address, father_first_name, father_middle_name, father_last_name, mother_first_name, mother_middle_name, mother_last_name, proof_of_identity, proof_of_address, is_citizen, date_registered, is_official) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isssssssissiisssssisssssssssssssssss
+    [1] => 
+    [2] => Arlene Diannel
+    [3] => Cuenca
+    [4] => Tabayoyong
+    [5] => Female
+    [6] => 1997-05-25
+    [7] => Fernando Air Base Lipa City
+    [8] => 46
+    [9] => 149
+    [10] => Single
+    [11] => Student
+    [12] => 09176753931
+    [13] => 4726255
+    [14] => 3
+    [15] => 54
+    [16] => 308
+    [17] => 1
+    [18] => 1
+    [19] => 1309
+    [20] => 8th 21st Street
+    [21] => 9005-25D
+    [22] => filipino
+    [23] => actabayoyong
+    [24] => qwerty
+    [25] => actabayoyong@student.apc.edu.ph
+    [26] => Dionicio
+    [27] => Layos
+    [28] => Tabayoyong
+    [29] => Elvie
+    [30] => Cuenca
+    [31] => Tabayoyong
+    [32] => 0e7690752edcda1a090a4af6a3b9721bf22fe63b2014-02-15 17.45.18.jpg
+    [33] => ad7cad3b6120b7e56fac41e955df50a1d3bd439d2014-02-15 17.45.06.jpg
+    [34] => No
+    [35] => 2016-04-04
+    [36] => No
+)
+","/barangay/modules/citizen/add_citizen.php"
+29,"29","::1","root","2016-04-04 01:48:09pm","Query Executed: INSERT INTO person(person_id, first_name, middle_name, last_name, gender) VALUES(?,?,?,?,?)
+Array
+(
+    [0] => issss
+    [1] => 
+    [2] => Arlene Diannel
+    [3] => Cuenca
+    [4] => Tabayoyong
+    [5] => Female
+)
+","/barangay/modules/citizen/add_citizen.php"
+30,"30","::1","root","2016-04-04 01:48:57pm","Pressed submit button","/barangay/modules/citizen/edit_citizen.php"
+31,"31","::1","root","2016-04-04 01:48:58pm","Query Executed: UPDATE citizen SET first_name = ?, middle_name = ?, last_name = ?, gender = ?, birth_date = ?, birth_place = ?, weight = ?, height = ?, civil_status = ?, occupation = ?, cellphone_number = ?, telephone_number = ?, region = ?, province = ?, city = ?, district = ?, barangay = ?, zip_code = ?, street = ?, house_number = ?, nationality = ?, username = ?, password = ?, email_address = ?, father_first_name = ?, father_middle_name = ?, father_last_name = ?, mother_first_name = ?, mother_middle_name = ?, mother_last_name = ?, proof_of_identity = ?, proof_of_address = ?, is_citizen = ?, date_registered = ?, is_official = ? WHERE citizen_id = ?
+Array
+(
+    [0] => sssssssissiisssssisssssssssssssssssi
+    [1] => Arlene Diannel
+    [2] => Cuenca
+    [3] => Tabayoyong
+    [4] => Female
+    [5] => 1997-05-25
+    [6] => Fernando Air Base Lipa City
+    [7] => 46.00
+    [8] => 149
+    [9] => Single
+    [10] => Student
+    [11] => 2147483647
+    [12] => 4726255
+    [13] => 3
+    [14] => 54
+    [15] => 308
+    [16] => 1
+    [17] => 1
+    [18] => 1309
+    [19] => 8th 21st Street
+    [20] => 9005-25D
+    [21] => filipino
+    [22] => actabayoyong
+    [23] => qwerty
+    [24] => actabayoyong@student.apc.edu.ph
+    [25] => Dionicio
+    [26] => Layos
+    [27] => Tabayoyong
+    [28] => Elvie
+    [29] => Cuenca
+    [30] => Tabayoyong
+    [31] => 0e7690752edcda1a090a4af6a3b9721bf22fe63b2014-02-15 17.45.18.jpg
+    [32] => ad7cad3b6120b7e56fac41e955df50a1d3bd439d2014-02-15 17.45.06.jpg
+    [33] => No
+    [34] => 2016-04-04
+    [35] => No
+    [36] => 1
+)
+","/barangay/modules/citizen/edit_citizen.php"
+32,"32","::1","root","2016-04-04 01:53:48pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+33,"33","::1","root","2016-04-04 01:53:48pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+34,"34","::1","root","2016-04-04 01:57:07pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+35,"35","::1","root","2016-04-04 01:59:04pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+36,"36","::1","root","2016-04-04 01:59:49pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+37,"37","::1","root","2016-04-04 02:04:40pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+38,"38","::1","root","2016-04-04 02:04:51pm","Logged in","/barangay/modules/bsystem/main.php"
+39,"39","::1","root","2016-04-04 02:04:51pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+40,"40","::1","root","2016-04-04 02:11:18pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+41,"41","::1","root","2016-04-04 02:11:45pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+42,"42","::1","root","2016-04-04 02:13:16pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+43,"43","::1","root","2016-04-04 02:13:16pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+44,"44","::1","root","2016-04-04 02:13:29pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+45,"45","::1","root","2016-04-04 02:13:32pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+46,"46","::1","root","2016-04-04 02:13:32pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+47,"47","::1","root","2016-04-04 02:13:33pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+48,"48","::1","root","2016-04-04 02:13:35pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+49,"49","::1","root","2016-04-04 02:13:35pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+50,"50","::1","root","2016-04-04 02:13:57pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+51,"51","::1","root","2016-04-04 02:14:14pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+52,"52","::1","root","2016-04-04 02:14:14pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+53,"53","::1","root","2016-04-04 02:14:27pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+54,"54","::1","root","2016-04-04 02:14:27pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+55,"55","::1","root","2016-04-04 02:14:32pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+56,"56","::1","root","2016-04-04 02:15:34pm","Logged in","/barangay/modules/bsystem/main.php"
+57,"57","::1","root","2016-04-04 02:15:34pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+58,"58","::1","root","2016-04-04 02:17:04pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+59,"59","::1","root","2016-04-04 02:17:07pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+60,"60","::1","root","2016-04-04 02:17:07pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+61,"61","::1","root","2016-04-04 02:17:38pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+62,"62","::1","root","2016-04-04 02:17:38pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+63,"63","::1","root","2016-04-04 02:17:40pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+64,"64","::1","root","2016-04-04 02:17:57pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+65,"65","::1","root","2016-04-04 02:21:29pm","Logged in","/barangay/modules/bsystem/main.php"
+66,"66","::1","root","2016-04-04 02:21:29pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+67,"67","::1","root","2016-04-04 02:22:56pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+68,"68","::1","root","2016-04-04 02:22:57pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+69,"69","::1","root","2016-04-04 02:22:57pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+70,"70","::1","root","2016-04-04 02:22:58pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+71,"71","::1","root","2016-04-04 02:27:19pm","Pressed submit button","/barangay/modules/bsystem/register.php"
+72,"72","::1","root","2016-04-04 02:27:19pm","Query Executed: INSERT INTO citizen(citizen_id, first_name, middle_name, last_name, gender, birth_date, birth_place, weight, height, civil_status, occupation, cellphone_number, telephone_number, region, province, city, district, barangay, zip_code, street, house_number, nationality, username, password, email_address, father_first_name, father_middle_name, father_last_name, mother_first_name, mother_middle_name, mother_last_name, proof_of_identity, proof_of_address, is_citizen, date_registered, is_official) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isssssssissiisssssisssssssssssssssss
+    [1] => 
+    [2] => hbdsh
+    [3] => djfh
+    [4] => ghbedh
+    [5] => Female
+    [6] => 2016-04-04
+    [7] => hdsb
+    [8] => 87
+    [9] => 87
+    [10] => Single
+    [11] => sjgdhf
+    [12] => 23456789098
+    [13] => 7654323
+    [14] => 3
+    [15] => 54
+    [16] => 308
+    [17] => 1
+    [18] => 1
+    [19] => 1344
+    [20] => jdhgb
+    [21] => 9887
+    [22] => hsdbvh
+    [23] => krlagman
+    [24] => qwerty
+    [25] => kamila@sample.com
+    [26] => sdhgfv
+    [27] => bdsh
+    [28] => hdbvh
+    [29] => hcbv
+    [30] => sdhbv
+    [31] => hbfdh
+    [32] => 109dce75b2880f9646b21a29b630b2889b6ad11a2014-02-15 22.29.19.jpg
+    [33] => 25166af754fc9f717e2cbda103ce9d07ed5e1ede2014-02-15 22.29.19.jpg
+    [34] => No
+    [35] => 2016-04-04
+    [36] => No
+)
+","/barangay/modules/bsystem/register.php"
+73,"73","::1","root","2016-04-04 02:27:19pm","Query Executed: INSERT INTO person(person_id, first_name, middle_name, last_name, gender) VALUES(?,?,?,?,?)
+Array
+(
+    [0] => issss
+    [1] => 
+    [2] => hbdsh
+    [3] => djfh
+    [4] => ghbedh
+    [5] => Female
+)
+","/barangay/modules/bsystem/register.php"
+74,"74","::1","root","2016-04-04 02:27:20pm","Query Executed: INSERT INTO user(username, password, salt, iteration, method, person_id, role_id, skin_id) VALUES(?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => sssisiii
+    [1] => krlagman
+    [2] => $2y$12$9UoPOY2XfYcH5NRiZWbHNOUcwJbuNSFV2wsGKTJXT0hZbc41koUy2
+    [3] => 9UoPOY2XfYcH5NRiZWbHNQ
+    [4] => 12
+    [5] => blowfish
+    [6] => 3
+    [7] => 1
+    [8] => 1
+)
+","/barangay/modules/bsystem/register.php"
+75,"75","::1","root","2016-04-04 02:27:20pm","Query executed: INSERT `user_passport` SELECT 'krlagman', `link_id` FROM user_role_links WHERE role_id='1'","/barangay/modules/bsystem/register.php"
+76,"76","::1","krlagman","2016-04-04 02:27:28pm","Logged in","/barangay/modules/bsystem/main.php"
+77,"77","::1","krlagman","2016-04-04 02:27:28pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+78,"78","::1","krlagman","2016-04-04 02:42:27pm","Logged in","/barangay/modules/bsystem/main.php"
+79,"79","::1","krlagman","2016-04-04 02:42:28pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+80,"80","::1","krlagman","2016-04-04 02:43:53pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+81,"81","::1","krlagman","2016-04-04 02:43:53pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+82,"82","::1","krlagman","2016-04-04 02:43:56pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+83,"83","::1","krlagman","2016-04-04 02:44:05pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+84,"84","::1","krlagman","2016-04-04 02:44:05pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+85,"85","::1","krlagman","2016-04-04 02:44:07pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+86,"86","::1","krlagman","2016-04-04 02:44:08pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+87,"87","::1","krlagman","2016-04-04 02:44:08pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+88,"88","::1","krlagman","2016-04-04 02:44:25pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+89,"89","::1","krlagman","2016-04-04 02:44:27pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+90,"90","::1","krlagman","2016-04-04 02:44:27pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+91,"91","::1","krlagman","2016-04-04 11:01:53pm","Pressed cancel button","/barangay/modules/citizen/listview_citizen.php"
+92,"92","::1","krlagman","2016-04-04 11:16:36pm","Pressed submit button","/barangay/modules/province/reporter_province.php"
+93,"93","::1","krlagman","2016-04-04 11:17:46pm","Logged in","/barangay/modules/bsystem/main.php"
+94,"94","::1","krlagman","2016-04-04 11:17:46pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+95,"95","::1","krlagman","2016-04-04 11:18:17pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+96,"96","::1","krlagman","2016-04-04 11:18:17pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+97,"97","::1","krlagman","2016-04-04 11:18:44pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+98,"98","::1","krlagman","2016-04-04 11:18:54pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+99,"99","::1","krlagman","2016-04-04 11:30:08pm","Logged in","/barangay/modules/bsystem/main.php"
+100,"100","::1","krlagman","2016-04-04 11:30:08pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+101,"101","::1","krlagman","2016-04-04 11:30:13pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+102,"102","::1","krlagman","2016-04-04 11:30:17pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+103,"103","::1","krlagman","2016-04-04 11:30:17pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+104,"104","::1","root","2016-04-04 11:36:20pm","Logged in","/barangay/modules/bsystem/main.php"
+105,"105","::1","root","2016-04-04 11:36:20pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+106,"106","::1","krlagman","2016-04-04 11:37:55pm","Logged in","/barangay/modules/bsystem/main.php"
+107,"107","::1","krlagman","2016-04-04 11:37:55pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+108,"108","::1","krlagman","2016-04-04 11:38:01pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+109,"109","::1","krlagman","2016-04-04 11:38:01pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+110,"110","::1","krlagman","2016-04-04 11:38:10pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+111,"111","::1","krlagman","2016-04-04 11:38:10pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+112,"112","::1","krlagman","2016-04-04 11:38:12pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+113,"113","::1","krlagman","2016-04-04 11:38:13pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+114,"114","::1","krlagman","2016-04-04 11:38:30pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+115,"115","::1","krlagman","2016-04-04 11:38:45pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+116,"116","::1","krlagman","2016-04-04 11:38:45pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+117,"117","::1","krlagman","2016-04-06 12:30:56pm","Logged in","/barangay/modules/bsystem/main.php"
+118,"118","::1","krlagman","2016-04-06 12:30:56pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+119,"119","::1","krlagman","2016-04-06 12:32:33pm","Pressed cancel button","/barangay/sysadmin/add_user_role.php"
+120,"120","::1","krlagman","2016-04-06 12:34:30pm","Pressed submit button","/barangay/sysadmin/add_user_role.php"
+121,"121","::1","krlagman","2016-04-06 12:34:31pm","Query Executed: INSERT INTO user_role(role_id, role, description) VALUES(?,?,?)
+Array
+(
+    [0] => iss
+    [1] => 
+    [2] => Citizen
+    [3] => hi
+)
+","/barangay/sysadmin/add_user_role.php"
+122,"122","::1","krlagman","2016-04-06 12:35:17pm","Query executed: DELETE FROM user_role_links WHERE role_id='3' AND link_id IN ('37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88')","/barangay/sysadmin/role_permissions.php"
+123,"123","::1","krlagman","2016-04-06 12:35:17pm","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '45')","/barangay/sysadmin/role_permissions.php"
+124,"124","::1","krlagman","2016-04-06 12:35:17pm","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '69')","/barangay/sysadmin/role_permissions.php"
+125,"125","::1","krlagman","2016-04-06 12:35:18pm","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '77')","/barangay/sysadmin/role_permissions.php"
+126,"126","::1","krlagman","2016-04-06 12:35:43pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+127,"127","::1","krlagman","2016-04-06 12:35:52pm","Logged in","/barangay/modules/bsystem/main.php"
+128,"128","::1","krlagman","2016-04-06 12:35:52pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+129,"129","::1","krlagman","2016-04-06 12:36:00pm","Logged out","/barangay/end.php"
+130,"130","::1","krlagman","2016-04-06 12:36:09pm","Logged in","/barangay/login.php"
+131,"131","::1","krlagman","2016-04-06 12:36:27pm","Pressed cancel button","/barangay/sysadmin/add_user_passport_groups.php"
+132,"132","::1","krlagman","2016-04-06 12:36:50pm","Logged out","/barangay/end.php"
+133,"133","::1","root","2016-04-06 12:36:56pm","Logged in","/barangay/login.php"
+134,"134","::1","root","2016-04-06 12:50:16pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+135,"135","::1","root","2016-04-06 12:50:18pm","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+136,"136","::1","root","2016-04-06 12:50:18pm","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+137,"137","::1","krlagman","2016-04-06 06:50:09pm","Logged in","/barangay/modules/bsystem/main.php"
+138,"138","::1","krlagman","2016-04-06 06:50:09pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+139,"139","::1","krlagman","2016-04-06 06:50:35pm","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+140,"140","::1","root","2016-04-07 10:29:40am","Logged in","/barangay/modules/bsystem/main.php"
+141,"141","::1","root","2016-04-07 10:29:41am","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+142,"142","::1","krlagman","2016-04-07 10:31:17am","Logged in","/barangay/modules/bsystem/main.php"
+143,"143","::1","krlagman","2016-04-07 10:31:17am","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+144,"144","::1","krlagman","2016-04-07 10:31:17am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+145,"145","::1","krlagman","2016-04-07 10:31:24am","Query executed: SELECT s.service_name, r.service_requirement FROM service s JOIN requirement r ON s.service_id = r.service_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+146,"146","::1","krlagman","2016-04-07 10:31:24am","Query executed: SELECT DISTINCT service_name, service_description FROM service WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+147,"147","::1","krlagman","2016-04-07 10:31:26am","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='education' ","/barangay/modules/bsystem/information.php"
+148,"148","::1","krlagman","2016-04-07 10:32:34am","Pressed submit button","/barangay/sysadmin/security_monitor.php"
+148,"","","","","",""

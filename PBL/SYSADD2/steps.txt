@@ -1,0 +1,14 @@
+Pre-Registration
+
+Student
+	- Student get registration form from register
+	- Student fillup registration form
+	- Student go to the department head to approve the
+	pre-registration
+	
+Registrar
+	- Registrar issue regiration form to student
+	- Registrar confirm registration of student 
+
+Department Head
+	- Department head approve registration of student
