@@ -122,7 +122,7 @@ echo '<input type="hidden" name="form_key" value="' . $form_key .'">';
 <div class="left_container">
 
     <div class="title">
-        <?php echo GLOBAL_PROJECT_NAME;?>
+        <?php /*echo GLOBAL_PROJECT_NAME;*/?>
     </div>
 
     <div class="flavor_text">
@@ -138,22 +138,22 @@ echo '<input type="hidden" name="form_key" value="' . $form_key .'">';
         <table border="0" width="100%" cellspacing="1">
         <tr>
             <td align="center">
-                <img src="login_badge.png">
+                <img class="loginlogo" src="images/logo1.png">
             </td>
         </tr>
         <tr>
             <td align="center">
-            <?php $html->draw_text_field('','username',FALSE,'text',FALSE, 'id="username" size="37" autocomplete="off" placeholder="Username"'); ?>
+            <?php $html->draw_text_field('','username',FALSE,'text',FALSE, 'id="username" size="37" autocomplete="off" placeholder="Please enter your username"'); ?>
             </td>
         </tr>
         <tr>
             <td align="center">
-                <?php $html->draw_text_field('','password',FALSE,'password',FALSE,'maxlength="' . MAX_PASSWORD_LENGTH . '" size="37" autocomplete="off" placeholder="Password"'); ?>
+                <?php $html->draw_text_field('','password',FALSE,'password',FALSE,'maxlength="' . MAX_PASSWORD_LENGTH . '" size="37" autocomplete="off" placeholder="Please enter your password"'); ?>
             </td>
         </tr>
         <tr>
             <td align="center">
-                <input type=submit value="LOG IN" name="btnSubmit">
+                <input class="loginbtn" type=submit value="LOG IN" name="btnSubmit">
                 <?php
                 init_var($error_message);
                 $_SESSION['icon_set'] = 'cobalt';
@@ -162,11 +162,13 @@ echo '<input type="hidden" name="form_key" value="' . $form_key .'">';
             </td>
         </tr>
         </table>
+        <center><p>Don't have an account? <a href="register.php">Sign up here</a></p></center>
     </fieldset>
+
+    </form>
+
 </div>
-</form>
-</body>
-</html>
+
 
 <?php
 	require 'footer1.php';

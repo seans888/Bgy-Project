@@ -19,15 +19,7 @@
 <main>
 
 <div class="block-body">
-			<center><font size='25px'>EVENTS</font></center>
-			<center><div class="main-headline">
-				<?php
-				if($row1 = $result1->fetch_assoc()) {
-					echo "<a href='showmore.php?b={$row1['bulletin_id']}'><img width='800px' class='headline' src='../../tmp/{$row1['file_document']}'></a>";
-				}
-					?>
-			<!--<img width='800px' class="headline" src='event.jpg'>-->
-			</div></center><br><br>
+			
 			
 		<!--<table border=3 width='1000px' >-->
 			<?php
@@ -47,11 +39,12 @@
 			
 					echo "<div class='home-layout home'>";
 					echo "<div class='descript'>";
-					echo "<h2>$bulletin_name</h2>";
+					echo "<h4 class='bulletin-title'>$bulletin_name</h4>";
 					echo "<img class='homeimg' src='../../tmp/$file_document' >";
 					echo "<p class='proj-descript'>$bulletin_description<br></p>";
 					echo "</div>";
 					echo "</div>";
+					echo "<hr/>";
 				
 				}
 

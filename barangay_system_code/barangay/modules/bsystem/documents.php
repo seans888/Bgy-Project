@@ -38,16 +38,16 @@
 			<center><h1>List of Documents</h1></center><br/><br/>
 		<center><table class="doctable">
 			<?php
-					echo "<tr class='doctable'>";
-					echo "<th class='doctable'>Service Name</th>";
-					echo "<th class='doctable'>Service Requirement</th>";
-					echo "<th class='doctable'>Serviced Description</th></tr>";
+					echo "<tr class='doctr'>";
+					echo "<th class='docth'>Service Name</th>";
+					echo "<th class='docth'>Service Requirement</th>";
+					echo "<th class='docth'>Serviced Description</th></tr>";
 				foreach ($services as $row) {
 				extract($row);
 					
-					echo "<tr class='doctable'>";
-					echo "<td class='doctable'>$service_name</td>";
-					echo "<td class='doctable'>";
+					echo "<tr class='doctr'>";
+					echo "<td class='doctd'>$service_name</td>";
+					echo "<td class='doctd'>";
 					foreach ($service_requirements as $requirements) {
 						if ($requirements['service_name'] == $row['service_name']) {
 					
@@ -55,7 +55,7 @@
 					
 						}
 					}
-					echo "<td class='doctable'>$service_description</td></tr>";
+					echo "<td class='doctd'>$service_description</td></tr>";
 	
 				}
 			?>
