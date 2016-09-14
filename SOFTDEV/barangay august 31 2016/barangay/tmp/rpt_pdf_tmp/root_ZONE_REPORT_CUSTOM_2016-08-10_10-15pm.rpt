@@ -1,0 +1,5 @@
+<table width="100%" border="1">
+<tr style="background-color: #999999;">
+<th align="center">#</th>    <th align="center"> Zone ID </th>    <th align="center"> Zone Name </th>    <th align="center"> Zone Leader Name </th>    <th align="center"> [Barangay] Barangay ID </th>    <th align="center"> [Barangay] Barangay Name </th>    <th align="center"> [Barangay] Nscb Code </th>    <th align="center"> [Barangay] District Number </th>    <th align="center"> [Barangay] Zip Code </th>    </tr><tr style="background-color: #999999;">
+<th align="center">0</th></tr>
+</table>

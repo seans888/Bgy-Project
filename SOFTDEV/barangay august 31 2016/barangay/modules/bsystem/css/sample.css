@@ -1,0 +1,61 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+div.id{
+   height: 550px;
+   width: 420px;
+   display: inline-block;
+   vertical-align: text-top;
+}
+div.back-part{
+   width: 210px;
+   display: inline-block;
+   vertical-align: text-top;
+   text-align: center;
+}
+
+div.front{
+   background-image: url('../images/form_barangay/barangay-id (front).png');
+   background-repeat: none;
+   background-size: 100% 100%;
+}
+div.back{
+   background-image: url('../images/form_barangay/barangay-id (back).png');
+   background-repeat: none;
+   background-size: 100% 100%;
+}
+   
+img{
+   position: absolute;
+   height: 550px;
+   width: 420px;
+
+}
+p{
+      font-size: 18pt;
+}
+.center-align{
+   text-align: center;   
+}
+p.name{
+   margin-top: 265px;
+}
+p.address{
+   margin-top: 62px;
+}
+p.birthdate{
+   margin-top: 70px;
+}
+p.registered{
+   margin-top: 70px;
+}
+p.contact{
+   margin-top: 40px;
+}
+
+@media print
+{
+    * {-webkit-print-color-adjust:exact;}
+    .id img{display:inline;}
+}

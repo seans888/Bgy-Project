@@ -1,0 +1,15 @@
+introduction
+find statistics on the problem, unused project (Coa) (data.gov.ph)
+Universal Identification System ( IDs,  quick id, can be used in election)
+"Pro-active" system
+small details about problem statement (localized id)
+replace proposed solution to benefit statement
+	indicate the gov agency who will benefit the system (include logo)
+system requirement analysis
+show softcopy of id
+system configuration 
+future plan
+demo of the system
+vision statement - what will be the system be in 5 years or more, at this point in time
+Scope and Limitation
+relationship to other projects

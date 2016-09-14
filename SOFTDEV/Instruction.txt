@@ -1,0 +1,75 @@
+*Instruction will be placed above the process
+INSTRUCTION
+
+Registration
+	Validation Part
+		- Upload jpg, jpeg, png, format
+		- It can change the number of upload file by entering value in
+		"Change # of items" and click "Go"
+	
+	Account Information
+		- Note: Remember whatever you will be input in the "Username" and "Password",
+		it will be your access in the system
+
+Reguest
+	Barangay Clearance (New)
+		- In "Sub Doc" section. Select what type of document will be requesting
+		- Select specific requirement
+		- Upload using jpg, jpeg, pdf, png, word
+		- It can change the number of upload file by entering value in
+		"Change # of items" and click "Go"
+		- Click submit to continue
+		- It will display the output of the desired document
+	Barangay Clearance (Renew)
+		- Enter what will be the purpose for renewing the document.
+		- Click okay
+		- In "Sub Doc" section. Select what type of document will be requesting
+		- Select specific requirement
+		- Upload using jpg, jpeg, pdf, png, word
+		- It can change the number of upload file by entering value in
+		"Change # of items" and click "Go"
+		- Click submit to continue
+	Cedula
+		- Fill up form
+		- Click submit
+		- In "Sub Doc" section. Select what type of document will be requesting
+		- Select specific requirement
+		- Upload using jpg, jpeg, pdf, png, word
+		- It can change the number of upload file by entering value in
+		"Change # of items" and click "Go"
+		- Click submit to continue
+	Business Permit (Renew)
+		- Fill up form
+		- Click Submit
+		- In "Sub Doc" section. Select what type of document will be requesting
+		- Select specific requirement
+		- Upload using jpg, jpeg, pdf, png, word
+		- It can change the number of upload file by entering value in
+		"Change # of items" and click "Go"
+		- Click submit to continue
+	Business Permit (New)
+		- Fill up form
+		- Click Submit
+		- In "Sub Doc" section. Select what type of document will be requesting
+		- Select specific requirement
+		- Upload using jpg, jpeg, pdf, png, word
+		- It can change the number of upload file by entering value in
+		"Change # of items" and click "Go"
+		- Click submit to continue
+	Barangay ID (New)
+		- In "Sub Doc" section. Select what type of document will be requesting
+		- Select specific requirement
+		- Upload using jpg, jpeg, pdf, png, word
+		- It can change the number of upload file by entering value in
+		"Change # of items" and click "Go"
+	Barangay ID (Renew)
+		- In "Sub Doc" section. Select what type of document will be requesting
+		- Select specific requirement
+		- Upload using jpg, jpeg, pdf, png, word
+		- It can change the number of upload file by entering value in
+		"Change # of items" and click "Go"
+
+	
+
+
+	

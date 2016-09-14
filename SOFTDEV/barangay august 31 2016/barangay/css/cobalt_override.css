@@ -1,0 +1,38 @@
+a.navlink{
+	font-family: calibri;
+	font-size: 16px;
+	text-decoration: none;
+}
+a:link {
+    color: #4d88ff;
+}
+
+/* visited link */
+a:visited {
+    color: #4d88ff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #99ccff;
+}
+
+/* selected link */
+a:active {
+    color: #4d88ff;
+}
+body.body{
+	background-color: #e6e6e6;
+} 
+a.fnavlink{
+	color: white;
+	font-family: calibri;
+	font-size: 10pt;	
+}
+fieldset.container_invisible{
+    background-color: white;
+}
+span.pageHeaderText{
+	text-shadow: none;
+	color: black;
+}

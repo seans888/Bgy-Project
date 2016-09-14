@@ -1,0 +1,1349 @@
+#,"Entry ID","Ip Address","User","Datetime","Action","Module"
+1,"1","::1","root","2016-07-18 08:50:54am","Pressed submit button","/barangay/sysadmin/add_user.php"
+2,"2","::1","root","2016-07-18 08:50:59am","Pressed submit button","/barangay/sysadmin/add_user.php"
+3,"3","::1","root","2016-07-18 08:50:59am","Query Executed: INSERT INTO user(username, password, salt, iteration, method, person_id, role_id, skin_id) VALUES(?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => sssisiii
+    [1] => guest
+    [2] => $2y$12$07JKaxoX/EHHmFZ1oL5ETe7rjVFi2dXW9Re7YksqzdhZwK4x55Q2m
+    [3] => 07JKaxoX/EHHmFZ1oL5ETg
+    [4] => 12
+    [5] => blowfish
+    [6] => 1
+    [7] => 2
+    [8] => 1
+)
+","/barangay/sysadmin/add_user.php"
+4,"4","::1","root","2016-07-18 08:51:00am","Query executed: INSERT `user_passport` SELECT 'guest', `link_id` FROM user_role_links WHERE role_id='2'","/barangay/sysadmin/add_user.php"
+5,"5","::1","guest","2016-07-18 08:51:18am","Logged in","/barangay/modules/bsystem/main.php"
+6,"6","::1","guest","2016-07-18 08:52:52am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+7,"7","::1","guest","2016-07-18 08:53:49am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+8,"8","::1","guest","2016-07-18 08:53:49am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+9,"9","::1","guest","2016-07-18 08:53:49am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+10,"10","::1","guest","2016-07-18 08:53:53am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+11,"11","::1","guest","2016-07-18 08:53:53am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+12,"12","::1","guest","2016-07-18 08:53:53am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+13,"13","::1","guest","2016-07-18 08:53:57am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+14,"14","::1","guest","2016-07-18 08:53:57am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+15,"15","::1","guest","2016-07-18 08:54:02am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+16,"16","::1","guest","2016-07-18 08:54:03am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+17,"17","::1","guest","2016-07-18 08:54:03am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+18,"18","::1","guest","2016-07-18 08:54:04am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+19,"19","::1","guest","2016-07-18 08:54:26am","ILLEGAL ACCESS ATTEMPT - Tried to access '/barangay/modules/bulletin/listview_bulletin.php' without sufficient privileges.","/barangay/modules/bulletin/listview_bulletin.php"
+20,"20","::1","root","2016-07-18 08:54:32am","Logged in","/barangay/login.php"
+21,"21","::1","root","2016-07-18 08:54:33am","Query Executed: UPDATE user SET `password`=?, `salt`=?, `iteration`=?, `method`=? WHERE username=?
+Array
+(
+    [0] => ssiss
+    [1] => $2y$12$HaZmbKjpwu0gVZGHWrH7Au0TJ5skU7tpno6NvjlqADT1pr3t3dl/y
+    [2] => HaZmbKjpwu0gVZGHWrH7Aw
+    [3] => 12
+    [4] => blowfish
+    [5] => root
+)
+","/barangay/login.php"
+22,"22","::1","root","2016-07-18 08:55:51am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+23,"23","::1","root","2016-07-18 08:55:51am","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+24,"24","::1","root","2016-07-18 08:55:53am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+25,"25","::1","root","2016-07-18 08:55:54am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+26,"26","::1","root","2016-07-18 08:55:54am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+27,"27","::1","root","2016-07-18 08:55:58am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+28,"28","::1","root","2016-07-18 08:55:58am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+29,"29","::1","root","2016-07-18 08:55:58am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+30,"30","::1","root","2016-07-18 08:56:00am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+31,"31","::1","root","2016-07-18 08:56:00am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+32,"32","::1","root","2016-07-18 08:56:00am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+33,"33","::1","root","2016-07-18 08:56:07am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+34,"34","::1","root","2016-07-18 08:56:07am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+35,"35","::1","root","2016-07-18 08:56:07am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+36,"36","::1","root","2016-07-18 08:56:09am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/about.php"
+37,"37","::1","root","2016-07-18 08:56:13am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+38,"38","::1","root","2016-07-18 08:56:13am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+39,"39","::1","root","2016-07-18 08:56:13am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+40,"40","::1","root","2016-07-18 08:57:48am","Pressed submit button","/barangay/modules/bulletin/add_bulletin.php"
+41,"41","::1","root","2016-07-18 08:57:48am","Query Executed: INSERT INTO bulletin(bulletin_id, bulletin_name, bulletin_description, bulletin_date, file_document, category, is_show) VALUES(?,?,?,?,?,?,?)
+Array
+(
+    [0] => issssss
+    [1] => 
+    [2] => hi
+    [3] => hello
+    [4] => 2016-07-18
+    [5] => fcb6d82a0380303da22da6f7d54d6003e28007ab5add2336eb86f8d3a32c8f2db0895d1303acc54cfeeding.jpg
+    [6] => Information
+    [7] => Yes
+)
+","/barangay/modules/bulletin/add_bulletin.php"
+42,"42","::1","root","2016-07-18 08:57:52am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+43,"43","::1","root","2016-07-18 08:57:52am","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+44,"44","::1","root","2016-07-18 08:57:59am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+45,"45","::1","root","2016-07-18 08:57:59am","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+46,"46","::1","root","2016-07-18 08:58:22am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/showmore.php"
+47,"47","::1","root","2016-07-18 09:00:38am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/showmore.php"
+48,"48","::1","root","2016-07-18 09:00:38am","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE bulletin_id = '16'","/barangay/modules/bsystem/showmore.php"
+49,"49","::1","root","2016-07-18 09:00:43am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+50,"50","::1","root","2016-07-18 09:00:43am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+51,"51","::1","root","2016-07-18 09:00:44am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+52,"52","::1","root","2016-07-18 09:01:54am","Pressed submit button","/barangay/modules/bulletin/edit_bulletin.php"
+53,"53","::1","root","2016-07-18 09:01:54am","Query Executed: UPDATE bulletin SET bulletin_name = ?, bulletin_description = ?, bulletin_date = ?, file_document = ?, category = ?, is_show = ? WHERE bulletin_id = ?
+Array
+(
+    [0] => ssssssi
+    [1] => Barangay Assembly Day
+    [2] => Pursuant to Proclamation No. 260, dated 30 September 2011, the Barangay Assembly Day for the first Semester of CY 2014 is set on March 29, 2014. Relative thereto and in accordance with Section 397(b) of the Local Government Code every barangay is enjoined to undertake the following activities.
+
+ 
+
+State of Barangay Address (SOBA)
+Compliance to DILG Memorandum Circular regarding the posting of Barangay Budget, Statement of Income and Expenditures and other Barangay Financial Transactions, and Annual Procurement Plan.
+Discussion on issues or concerns affecting the barangay, such as but not limited to:
+Disaster Preparedness
+Solid Waste Management
+Peace and Order Situation, particularly on the proliferation of activities pertaining to illegal drugs in the barangay
+Monitoring and strict enforcement of the laws against Human trafficking at the barangay level
+ 
+
+Barangay officials may also undertake other activities they deem appropriate to create public awareness on, and generate participation in, the barangay assembly, such as, but not limited to medical or dental mission, tiangge,cultural presentations, etc. Likewise, they are enjoined to prepare barangay assembly posters or banners to be posted or hung in conspicuous places, like the barangay hall, plaza, main street, tricycle, jeep or bus terminal, market or talipapa,in the locality.
+
+ 
+
+All City and Municipal Mayors are enjoined to ensure compliance and maximum participation of all barangays in the said undertaking in their respective jurisdictions, pursuant to Proclamation No. 260. Said LCEs are also enjoined to
+
+post or hang barangay assembly posters or banners in various conspicuous places,like the city or municipal hall, plaza, main street, tricycle, jeep or bus terminal and public market, within their territory.
+
+ 
+
+Corresponding administrative complaint against barangay officials who fail to conduct a barangay assembly may be filed by any resident of the barangay, concerned citizen, governmental or non-governmental entity before the sangguniang panlungsod or sangguniang bayan concerned pursuant to Section 61 of the Local Government Code or to the Office of the Ombudsman pursuant to Administrative Order No. 07 or the ''Rules of Procedures on the Office of the
+    [3] => 2016-04-14
+    [4] => fcea897d5026f46ee23e5052c2fff0e9fdd8742dDILG_EVENTS_2014326_22e8344f11.jpg
+    [5] => Main Event
+    [6] => Yes
+    [7] => 5
+)
+","/barangay/modules/bulletin/edit_bulletin.php"
+54,"54","::1","root","2016-07-18 09:01:57am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+55,"55","::1","root","2016-07-18 09:01:57am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+56,"56","::1","root","2016-07-18 09:01:57am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+57,"57","::1","root","2016-07-18 09:02:10am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+58,"58","::1","root","2016-07-18 09:02:10am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+59,"59","::1","root","2016-07-18 09:02:10am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+60,"60","::1","root","2016-07-18 09:02:14am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+61,"61","::1","root","2016-07-18 09:02:14am","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+62,"62","::1","root","2016-07-18 09:02:27am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+63,"63","::1","root","2016-07-18 09:02:27am","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+64,"64","::1","root","2016-07-18 09:02:40am","Pressed submit button","/barangay/modules/bulletin/edit_bulletin.php"
+65,"65","::1","root","2016-07-18 09:02:40am","Query Executed: UPDATE bulletin SET bulletin_name = ?, bulletin_description = ?, bulletin_date = ?, file_document = ?, category = ?, is_show = ? WHERE bulletin_id = ?
+Array
+(
+    [0] => ssssssi
+    [1] => Barangay Assembly Day
+    [2] => Pursuant to Proclamation No. 260, dated 30 September 2011, the Barangay Assembly Day for the first Semester of CY 2014 is set on March 29, 2014. Relative thereto and in accordance with Section 397(b) of the Local Government Code every barangay is enjoined to undertake the following activities.
+
+ 
+
+State of Barangay Address (SOBA)
+Compliance to DILG Memorandum Circular regarding the posting of Barangay Budget, Statement of Income and Expenditures and other Barangay Financial Transactions, and Annual Procurement Plan.
+Discussion on issues or concerns affecting the barangay, such as but not limited to:
+Disaster Preparedness
+Solid Waste Management
+Peace and Order Situation, particularly on the proliferation of activities pertaining to illegal drugs in the barangay
+Monitoring and strict enforcement of the laws against Human trafficking at the barangay level
+ 
+
+Barangay officials may also undertake other activities they deem appropriate to create public awareness on, and generate participation in, the barangay assembly, such as, but not limited to medical or dental mission, tiangge,cultural presentations, etc. Likewise, they are enjoined to prepare barangay assembly posters or banners to be posted or hung in conspicuous places, like the barangay hall, plaza, main street, tricycle, jeep or bus terminal, market or talipapa,in the locality.
+
+ 
+
+All City and Municipal Mayors are enjoined to ensure compliance and maximum participation of all barangays in the said undertaking in their respective jurisdictions, pursuant to Proclamation No. 260. Said LCEs are also enjoined to
+
+post or hang barangay assembly posters or banners in various conspicuous places,like the city or municipal hall, plaza, main street, tricycle, jeep or bus terminal and public market, within their territory.
+
+ 
+
+Corresponding administrative complaint against barangay officials who fail to conduct a barangay assembly may be filed by any resident of the barangay, concerned citizen, governmental or non-governmental entity before the sangguniang panlungsod or sangguniang bayan concerned pursuant to Section 61 of the Local Government Code or to the Office of the Ombudsman pursuant to Administrative Order No. 07 or the ''Rules of Procedures on the Office of the
+    [3] => 2016-04-14
+    [4] => fcea897d5026f46ee23e5052c2fff0e9fdd8742dDILG_EVENTS_2014326_22e8344f11.jpg
+    [5] => Main Event
+    [6] => Yes
+    [7] => 5
+)
+","/barangay/modules/bulletin/edit_bulletin.php"
+66,"66","::1","root","2016-07-18 09:02:50am","Pressed submit button","/barangay/modules/bulletin/edit_bulletin.php"
+67,"67","::1","root","2016-07-18 09:02:50am","Query Executed: UPDATE bulletin SET bulletin_name = ?, bulletin_description = ?, bulletin_date = ?, file_document = ?, category = ?, is_show = ? WHERE bulletin_id = ?
+Array
+(
+    [0] => ssssssi
+    [1] => Barangay Assembly Day
+    [2] => Pursuant to Proclamation No. 260, dated 30 September 2011, the Barangay Assembly Day for the first Semester of CY 2014 is set on March 29, 2014. Relative thereto and in accordance with Section 397(b) of the Local Government Code every barangay is enjoined to undertake the following activities.
+
+ 
+
+State of Barangay Address (SOBA)
+Compliance to DILG Memorandum Circular regarding the posting of Barangay Budget, Statement of Income and Expenditures and other Barangay Financial Transactions, and Annual Procurement Plan.
+Discussion on issues or concerns affecting the barangay, such as but not limited to:
+Disaster Preparedness
+Solid Waste Management
+Peace and Order Situation, particularly on the proliferation of activities pertaining to illegal drugs in the barangay
+Monitoring and strict enforcement of the laws against Human trafficking at the barangay level
+ 
+
+Barangay officials may also undertake other activities they deem appropriate to create public awareness on, and generate participation in, the barangay assembly, such as, but not limited to medical or dental mission, tiangge,cultural presentations, etc. Likewise, they are enjoined to prepare barangay assembly posters or banners to be posted or hung in conspicuous places, like the barangay hall, plaza, main street, tricycle, jeep or bus terminal, market or talipapa,in the locality.
+
+ 
+
+All City and Municipal Mayors are enjoined to ensure compliance and maximum participation of all barangays in the said undertaking in their respective jurisdictions, pursuant to Proclamation No. 260. Said LCEs are also enjoined to
+
+post or hang barangay assembly posters or banners in various conspicuous places,like the city or municipal hall, plaza, main street, tricycle, jeep or bus terminal and public market, within their territory.
+
+ 
+
+Corresponding administrative complaint against barangay officials who fail to conduct a barangay assembly may be filed by any resident of the barangay, concerned citizen, governmental or non-governmental entity before the sangguniang panlungsod or sangguniang bayan concerned pursuant to Section 61 of the Local Government Code or to the Office of the Ombudsman pursuant to Administrative Order No. 07 or the ''Rules of Procedures on the Office of the
+    [3] => 2016-04-14
+    [4] => fcea897d5026f46ee23e5052c2fff0e9fdd8742dDILG_EVENTS_2014326_22e8344f11.jpg
+    [5] => Main Event
+    [6] => Yes
+    [7] => 5
+)
+","/barangay/modules/bulletin/edit_bulletin.php"
+68,"68","::1","root","2016-07-18 09:02:54am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+69,"69","::1","root","2016-07-18 09:02:54am","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+70,"70","::1","root","2016-07-18 09:03:23am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+71,"71","::1","root","2016-07-18 09:03:23am","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+72,"72","::1","root","2016-07-18 09:03:32am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+73,"73","::1","root","2016-07-18 09:03:32am","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+74,"74","::1","root","2016-07-18 09:03:36am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+75,"75","::1","root","2016-07-18 09:03:36am","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+76,"76","::1","root","2016-07-18 09:03:39am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+77,"77","::1","root","2016-07-18 09:03:39am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+78,"78","::1","root","2016-07-18 09:03:39am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+79,"79","::1","root","2016-07-18 09:03:47am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+80,"80","::1","root","2016-07-18 09:03:47am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+81,"81","::1","root","2016-07-18 09:03:47am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+82,"82","::1","root","2016-07-18 09:05:36am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+83,"83","::1","root","2016-07-18 09:05:36am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+84,"84","::1","root","2016-07-18 09:05:36am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+85,"85","::1","root","2016-07-18 09:05:41am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+86,"86","::1","root","2016-07-18 09:05:41am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+87,"87","::1","root","2016-07-18 09:05:42am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+88,"88","::1","root","2016-07-18 09:05:59am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+89,"89","::1","root","2016-07-18 09:05:59am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+90,"90","::1","root","2016-07-18 09:06:00am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+91,"91","::1","root","2016-07-18 09:06:28am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+92,"92","::1","root","2016-07-18 09:06:28am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+93,"93","::1","root","2016-07-18 09:06:28am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+94,"94","::1","root","2016-07-18 09:06:48am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+95,"95","::1","root","2016-07-18 09:06:48am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+96,"96","::1","root","2016-07-18 09:06:48am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+97,"97","::1","root","2016-07-18 09:06:51am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+98,"98","::1","root","2016-07-18 09:06:52am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+99,"99","::1","root","2016-07-18 09:06:52am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+100,"100","::1","root","2016-07-18 09:06:57am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+101,"101","::1","root","2016-07-18 09:06:57am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+102,"102","::1","root","2016-07-18 09:06:57am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+103,"103","::1","root","2016-07-18 09:15:12am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+104,"104","::1","root","2016-07-18 09:15:12am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+105,"105","::1","root","2016-07-18 09:15:12am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+106,"106","::1","root","2016-07-18 09:16:26am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+107,"107","::1","root","2016-07-18 09:16:26am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+108,"108","::1","root","2016-07-18 09:16:26am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+109,"109","::1","root","2016-07-18 09:17:53am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+110,"110","::1","root","2016-07-18 09:17:53am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+111,"111","::1","root","2016-07-18 09:17:54am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+112,"112","::1","root","2016-07-18 09:17:58am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+113,"113","::1","root","2016-07-18 09:17:58am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+114,"114","::1","root","2016-07-18 09:17:58am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+115,"115","::1","root","2016-07-18 09:18:34am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+116,"116","::1","root","2016-07-18 09:18:35am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+117,"117","::1","root","2016-07-18 09:18:35am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+118,"118","::1","root","2016-07-18 09:18:44am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+119,"119","::1","root","2016-07-18 09:18:44am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+120,"120","::1","root","2016-07-18 09:18:45am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+121,"121","::1","root","2016-07-18 09:18:57am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+122,"122","::1","root","2016-07-18 09:18:57am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+123,"123","::1","root","2016-07-18 09:18:57am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+124,"124","::1","root","2016-07-18 09:19:17am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+125,"125","::1","root","2016-07-18 09:19:17am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+126,"126","::1","root","2016-07-18 09:19:17am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+127,"127","::1","root","2016-07-18 09:19:34am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+128,"128","::1","root","2016-07-18 09:19:34am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+129,"129","::1","root","2016-07-18 09:19:34am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+130,"130","::1","root","2016-07-18 09:19:41am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+131,"131","::1","root","2016-07-18 09:19:41am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+132,"132","::1","root","2016-07-18 09:19:41am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+133,"133","::1","root","2016-07-18 09:21:13am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+134,"134","::1","root","2016-07-18 09:21:13am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+135,"135","::1","root","2016-07-18 09:21:13am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+136,"136","::1","root","2016-07-18 09:22:06am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+137,"137","::1","root","2016-07-18 09:22:06am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+138,"138","::1","root","2016-07-18 09:22:06am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+139,"139","::1","root","2016-07-18 09:22:08am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+140,"140","::1","root","2016-07-18 09:22:08am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+141,"141","::1","root","2016-07-18 09:22:08am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+142,"142","::1","root","2016-07-18 09:22:09am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+143,"143","::1","root","2016-07-18 09:22:09am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+144,"144","::1","root","2016-07-18 09:22:09am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+145,"145","::1","root","2016-07-18 09:23:00am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+146,"146","::1","root","2016-07-18 09:23:00am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+147,"147","::1","root","2016-07-18 09:23:00am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+148,"148","::1","root","2016-07-18 09:23:45am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+149,"149","::1","root","2016-07-18 09:23:45am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+150,"150","::1","root","2016-07-18 09:23:45am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+151,"151","::1","root","2016-07-18 09:23:53am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+152,"152","::1","root","2016-07-18 09:23:53am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+153,"153","::1","root","2016-07-18 09:23:53am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+154,"154","::1","root","2016-07-18 09:23:53am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+155,"155","::1","root","2016-07-18 09:23:53am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+156,"156","::1","root","2016-07-18 09:23:53am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+157,"157","::1","root","2016-07-18 09:23:55am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+158,"158","::1","root","2016-07-18 09:23:55am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+159,"159","::1","root","2016-07-18 09:23:55am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+160,"160","::1","root","2016-07-18 09:24:01am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+161,"161","::1","root","2016-07-18 09:24:01am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+162,"162","::1","root","2016-07-18 09:24:01am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+163,"163","::1","root","2016-07-18 09:24:13am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+164,"164","::1","root","2016-07-18 09:24:13am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+165,"165","::1","root","2016-07-18 09:24:13am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+166,"166","::1","root","2016-07-18 09:25:09am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+167,"167","::1","root","2016-07-18 09:25:09am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+168,"168","::1","root","2016-07-18 09:25:09am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+169,"169","::1","root","2016-07-18 09:25:19am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+170,"170","::1","root","2016-07-18 09:25:19am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+171,"171","::1","root","2016-07-18 09:25:19am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+172,"172","::1","root","2016-07-18 09:26:09am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+173,"173","::1","root","2016-07-18 09:26:09am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+174,"174","::1","root","2016-07-18 09:26:09am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+175,"175","::1","root","2016-07-18 09:26:11am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+176,"176","::1","root","2016-07-18 09:26:11am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+177,"177","::1","root","2016-07-18 09:26:11am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+178,"178","::1","root","2016-07-18 09:26:33am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+179,"179","::1","root","2016-07-18 09:26:33am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+180,"180","::1","root","2016-07-18 09:26:33am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+181,"181","::1","root","2016-07-18 09:27:03am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+182,"182","::1","root","2016-07-18 09:27:03am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+183,"183","::1","root","2016-07-18 09:27:03am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+184,"184","::1","root","2016-07-18 09:27:20am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+185,"185","::1","root","2016-07-18 09:27:20am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+186,"186","::1","root","2016-07-18 09:27:20am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+187,"187","::1","root","2016-07-18 09:27:26am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+188,"188","::1","root","2016-07-18 09:27:26am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+189,"189","::1","root","2016-07-18 09:27:26am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+190,"190","::1","root","2016-07-18 09:27:39am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+191,"191","::1","root","2016-07-18 09:27:39am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+192,"192","::1","root","2016-07-18 09:27:39am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+193,"193","::1","root","2016-07-18 09:27:57am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+194,"194","::1","root","2016-07-18 09:27:57am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+195,"195","::1","root","2016-07-18 09:27:57am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+196,"196","::1","root","2016-07-18 09:28:17am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+197,"197","::1","root","2016-07-18 09:28:17am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+198,"198","::1","root","2016-07-18 09:28:17am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+199,"199","::1","root","2016-07-18 09:28:33am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+200,"200","::1","root","2016-07-18 09:28:33am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+201,"201","::1","root","2016-07-18 09:28:33am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+202,"202","::1","root","2016-07-18 09:32:21am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+203,"203","::1","root","2016-07-18 09:32:21am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+204,"204","::1","root","2016-07-18 09:32:21am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+205,"205","::1","root","2016-07-18 09:32:39am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+206,"206","::1","root","2016-07-18 09:32:39am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+207,"207","::1","root","2016-07-18 09:32:39am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+208,"208","::1","root","2016-07-18 09:33:06am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+209,"209","::1","root","2016-07-18 09:33:06am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+210,"210","::1","root","2016-07-18 09:33:06am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+211,"211","::1","root","2016-07-18 09:33:08am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+212,"212","::1","root","2016-07-18 09:33:08am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+213,"213","::1","root","2016-07-18 09:33:08am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+214,"214","::1","root","2016-07-18 09:33:09am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+215,"215","::1","root","2016-07-18 09:33:09am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+216,"216","::1","root","2016-07-18 09:33:09am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+217,"217","::1","root","2016-07-18 09:33:09am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+218,"218","::1","root","2016-07-18 09:33:09am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+219,"219","::1","root","2016-07-18 09:33:09am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+220,"220","::1","root","2016-07-18 09:33:16am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+221,"221","::1","root","2016-07-18 09:33:16am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+222,"222","::1","root","2016-07-18 09:33:16am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+223,"223","::1","root","2016-07-18 09:34:10am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+224,"224","::1","root","2016-07-18 09:34:10am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+225,"225","::1","root","2016-07-18 09:34:10am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+226,"226","::1","root","2016-07-18 09:35:01am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+227,"227","::1","root","2016-07-18 09:35:01am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+228,"228","::1","root","2016-07-18 09:35:01am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+229,"229","::1","root","2016-07-18 09:35:13am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+230,"230","::1","root","2016-07-18 09:35:13am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+231,"231","::1","root","2016-07-18 09:35:13am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+232,"232","::1","root","2016-07-18 09:35:31am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+233,"233","::1","root","2016-07-18 09:35:31am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+234,"234","::1","root","2016-07-18 09:35:31am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+235,"235","::1","root","2016-07-18 09:35:37am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+236,"236","::1","root","2016-07-18 09:35:37am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+237,"237","::1","root","2016-07-18 09:35:37am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+238,"238","::1","root","2016-07-18 09:35:47am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+239,"239","::1","root","2016-07-18 09:35:47am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+240,"240","::1","root","2016-07-18 09:35:47am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+241,"241","::1","root","2016-07-18 09:35:58am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+242,"242","::1","root","2016-07-18 09:35:58am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+243,"243","::1","root","2016-07-18 09:35:58am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+244,"244","::1","root","2016-07-18 09:36:39am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+245,"245","::1","root","2016-07-18 09:36:39am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+246,"246","::1","root","2016-07-18 09:36:39am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+247,"247","::1","root","2016-07-18 09:37:38am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+248,"248","::1","root","2016-07-18 09:37:38am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+249,"249","::1","root","2016-07-18 09:37:38am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+250,"250","::1","root","2016-07-18 09:37:48am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+251,"251","::1","root","2016-07-18 09:37:48am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+252,"252","::1","root","2016-07-18 09:37:48am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+253,"253","::1","root","2016-07-18 09:38:12am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+254,"254","::1","root","2016-07-18 09:38:12am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+255,"255","::1","root","2016-07-18 09:38:12am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+256,"256","::1","root","2016-07-18 09:39:21am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+257,"257","::1","root","2016-07-18 09:39:21am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+258,"258","::1","root","2016-07-18 09:39:21am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+259,"259","::1","root","2016-07-18 09:40:27am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+260,"260","::1","root","2016-07-18 09:40:27am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+261,"261","::1","root","2016-07-18 09:40:27am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+262,"262","::1","root","2016-07-18 09:40:36am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+263,"263","::1","root","2016-07-18 09:40:36am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+264,"264","::1","root","2016-07-18 09:40:36am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+265,"265","::1","root","2016-07-18 09:41:02am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+266,"266","::1","root","2016-07-18 09:41:02am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+267,"267","::1","root","2016-07-18 09:41:02am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+268,"268","::1","root","2016-07-18 09:42:18am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+269,"269","::1","root","2016-07-18 09:42:18am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+270,"270","::1","root","2016-07-18 09:42:18am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+271,"271","::1","root","2016-07-18 09:43:02am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+272,"272","::1","root","2016-07-18 09:43:02am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+273,"273","::1","root","2016-07-18 09:43:02am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+274,"274","::1","root","2016-07-18 09:43:34am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+275,"275","::1","root","2016-07-18 09:43:34am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+276,"276","::1","root","2016-07-18 09:43:34am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+277,"277","::1","root","2016-07-18 09:44:41am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+278,"278","::1","root","2016-07-18 09:44:41am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+279,"279","::1","root","2016-07-18 09:44:41am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+280,"280","::1","root","2016-07-18 09:45:32am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+281,"281","::1","root","2016-07-18 09:45:32am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+282,"282","::1","root","2016-07-18 09:45:32am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+283,"283","::1","root","2016-07-18 09:46:02am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+284,"284","::1","root","2016-07-18 09:46:02am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+285,"285","::1","root","2016-07-18 09:46:02am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+286,"286","::1","root","2016-07-18 09:48:36am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+287,"287","::1","root","2016-07-18 09:48:36am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+288,"288","::1","root","2016-07-18 09:48:36am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+289,"289","::1","root","2016-07-18 09:48:53am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+290,"290","::1","root","2016-07-18 09:48:53am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+291,"291","::1","root","2016-07-18 09:48:53am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+292,"292","::1","root","2016-07-18 09:49:15am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+293,"293","::1","root","2016-07-18 09:49:15am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+294,"294","::1","root","2016-07-18 09:49:15am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+295,"295","::1","root","2016-07-18 09:49:41am","Pressed cancel button","/barangay/modules/document/edit_document.php"
+296,"296","::1","root","2016-07-18 09:50:03am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+297,"297","::1","root","2016-07-18 09:50:03am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+298,"298","::1","root","2016-07-18 09:50:03am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+299,"299","::1","root","2016-07-18 09:50:13am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+300,"300","::1","root","2016-07-18 09:50:13am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+301,"301","::1","root","2016-07-18 09:50:13am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+302,"302","::1","root","2016-07-18 09:50:33am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+303,"303","::1","root","2016-07-18 09:50:33am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+304,"304","::1","root","2016-07-18 09:50:33am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+305,"305","::1","root","2016-07-18 09:51:23am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+306,"306","::1","root","2016-07-18 09:51:24am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+307,"307","::1","root","2016-07-18 09:51:24am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+308,"308","::1","root","2016-07-18 09:51:54am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+309,"309","::1","root","2016-07-18 09:51:54am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+310,"310","::1","root","2016-07-18 09:51:54am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+311,"311","::1","root","2016-07-18 09:52:19am","Pressed submit button","/barangay/modules/document/edit_document.php"
+312,"312","::1","root","2016-07-18 09:52:19am","Query Executed: UPDATE document SET document_name = ?, document_description = ?, date_offered = ?, is_offered = ? WHERE document_id = ?
+Array
+(
+    [0] => ssssi
+    [1] => Barangay Clearance (Renew)
+    [2] => This document certifies that the person is a good resident in a barangay and has a good moral character. It also signifies that the applicant does not have any negative record. No wonder, this is necessary in any official transaction.
+    [3] => 2016-07-10
+    [4] => Yes
+    [5] => 4
+)
+","/barangay/modules/document/edit_document.php"
+313,"313","::1","root","2016-07-18 09:52:33am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+314,"314","::1","root","2016-07-18 09:52:33am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+315,"315","::1","root","2016-07-18 09:52:33am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+316,"316","::1","root","2016-07-18 09:52:35am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+317,"317","::1","root","2016-07-18 09:52:35am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+318,"318","::1","root","2016-07-18 09:52:35am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+319,"319","::1","root","2016-07-18 09:52:57am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+320,"320","::1","root","2016-07-18 09:52:57am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+321,"321","::1","root","2016-07-18 09:52:57am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+322,"322","::1","root","2016-07-18 09:53:07am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+323,"323","::1","root","2016-07-18 09:53:07am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+324,"324","::1","root","2016-07-18 09:53:07am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+325,"325","::1","root","2016-07-18 09:55:00am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+326,"326","::1","root","2016-07-18 09:55:00am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+327,"327","::1","root","2016-07-18 09:55:00am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+328,"328","::1","root","2016-07-18 09:57:36am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+329,"329","::1","root","2016-07-18 09:57:36am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+330,"330","::1","root","2016-07-18 09:57:37am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+331,"331","::1","root","2016-07-18 09:59:24am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+332,"332","::1","root","2016-07-18 09:59:24am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+333,"333","::1","root","2016-07-18 09:59:24am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+334,"334","::1","root","2016-07-18 09:59:29am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+335,"335","::1","root","2016-07-18 09:59:29am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+336,"336","::1","root","2016-07-18 09:59:29am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+337,"337","::1","root","2016-07-18 09:59:32am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+338,"338","::1","root","2016-07-18 09:59:32am","Query executed: SELECT citizen_id FROM citizen WHERE username='root'","/barangay/modules/bsystem/request.php"
+339,"339","::1","root","2016-07-18 09:59:37am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+340,"340","::1","root","2016-07-18 09:59:37am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+341,"341","::1","root","2016-07-18 09:59:37am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+342,"342","::1","root","2016-07-18 09:59:40am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+343,"343","::1","root","2016-07-18 09:59:40am","Query executed: SELECT citizen_id FROM citizen WHERE username='root'","/barangay/modules/bsystem/request.php"
+344,"344","::1","root","2016-07-18 10:00:27am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+345,"345","::1","root","2016-07-18 10:00:27am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+346,"346","::1","root","2016-07-18 10:00:27am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+347,"347","::1","root","2016-07-18 10:00:31am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+348,"348","::1","root","2016-07-18 10:00:31am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+349,"349","::1","root","2016-07-18 10:00:31am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+350,"350","::1","root","2016-07-18 10:00:33am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+351,"351","::1","root","2016-07-18 10:00:33am","Query executed: SELECT citizen_id FROM citizen WHERE username='root'","/barangay/modules/bsystem/request.php"
+352,"352","::1","root","2016-07-18 10:00:34am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+353,"353","::1","root","2016-07-18 10:00:34am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+354,"354","::1","root","2016-07-18 10:00:34am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+355,"355","::1","root","2016-07-18 10:00:51am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+356,"356","::1","root","2016-07-18 10:00:51am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+357,"357","::1","root","2016-07-18 10:00:51am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+358,"358","::1","root","2016-07-18 04:47:22pm","Logged in","/barangay/login.php"
+359,"359","::1","guest","2016-07-18 04:47:38pm","Logged in","/barangay/modules/bsystem/main.php"
+360,"360","::1","guest","2016-07-18 04:47:39pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+361,"361","::1","guest","2016-07-18 04:47:39pm","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+362,"362","::1","guest","2016-07-18 04:47:39pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+363,"363","::1","guest","2016-07-18 04:47:43pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+364,"364","::1","guest","2016-07-18 04:47:44pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+365,"365","::1","guest","2016-07-18 04:47:44pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+366,"366","::1","guest","2016-07-18 04:50:09pm","Pressed cancel button","/barangay/modules/bsystem/business_permit.php"
+367,"367","::1","guest","2016-07-18 04:50:09pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+368,"368","::1","guest","2016-07-18 04:50:10pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+369,"369","::1","guest","2016-07-18 04:50:10pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+370,"370","::1","guest","2016-07-18 04:50:15pm","Pressed cancel button","/barangay/modules/bsystem/business_permit.php"
+371,"371","::1","guest","2016-07-18 04:50:15pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+372,"372","::1","guest","2016-07-18 04:50:15pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+373,"373","::1","guest","2016-07-18 04:50:15pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+374,"374","::1","guest","2016-07-18 04:52:14pm","Pressed cancel button","/barangay/modules/bsystem/barangay_clearance.php"
+375,"375","::1","guest","2016-07-18 04:52:14pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+376,"376","::1","guest","2016-07-18 04:52:14pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+377,"377","::1","guest","2016-07-18 04:52:14pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+378,"378","::1","guest","2016-07-18 04:52:21pm","Pressed cancel button","/barangay/modules/bsystem/barangay_clearance.php"
+379,"379","::1","guest","2016-07-18 04:52:21pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+380,"380","::1","guest","2016-07-18 04:52:21pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+381,"381","::1","guest","2016-07-18 04:52:21pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+382,"382","::1","guest","2016-07-18 04:52:26pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+383,"383","::1","guest","2016-07-18 04:52:26pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+384,"384","::1","guest","2016-07-18 04:52:37pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+385,"385","::1","guest","2016-07-18 04:52:37pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+386,"386","::1","guest","2016-07-18 04:52:38pm","Pressed cancel button","/barangay/modules/bsystem/request.php"
+387,"387","::1","guest","2016-07-18 04:52:38pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+388,"388","::1","guest","2016-07-18 04:52:38pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+389,"389","::1","guest","2016-07-18 04:52:38pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+390,"390","::1","guest","2016-07-18 04:52:42pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+391,"391","::1","guest","2016-07-18 04:52:42pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+392,"392","::1","guest","2016-07-18 04:52:46pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+393,"393","::1","guest","2016-07-18 04:52:46pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+394,"394","::1","guest","2016-07-18 04:52:46pm","Pressed cancel button","/barangay/modules/bsystem/request.php"
+395,"395","::1","guest","2016-07-18 04:52:46pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+396,"396","::1","guest","2016-07-18 04:52:46pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+397,"397","::1","guest","2016-07-18 04:52:46pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+398,"398","::1","guest","2016-07-18 04:54:17pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+399,"399","::1","guest","2016-07-18 04:54:17pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+400,"400","::1","guest","2016-07-18 04:54:17pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+401,"401","::1","guest","2016-07-18 04:54:33pm","Pressed cancel button","/barangay/modules/bsystem/cedula.php"
+402,"402","::1","guest","2016-07-18 04:54:33pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+403,"403","::1","guest","2016-07-18 04:54:33pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+404,"404","::1","guest","2016-07-18 04:54:33pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+405,"405","::1","guest","2016-07-18 05:06:55pm","ILLEGAL ACCESS ATTEMPT - Tried to access '/barangay/modules/document/listview_barangay_clearance.php' without sufficient privileges.","/barangay/modules/document/listview_barangay_clearance.php"
+406,"406","::1","root","2016-07-18 05:20:52pm","Logged in","/barangay/login.php"
+407,"407","::1","root","2016-07-18 05:22:45pm","Logged out","/barangay/end.php"
+408,"408","::1","guest","2016-07-19 09:54:36am","Logged in","/barangay/modules/bsystem/main.php"
+409,"409","::1","guest","2016-07-19 09:54:37am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+410,"410","::1","guest","2016-07-19 09:54:37am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+411,"411","::1","guest","2016-07-19 09:54:37am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+412,"412","::1","guest","2016-07-19 09:54:40am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+413,"413","::1","guest","2016-07-19 09:54:42am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+414,"414","::1","guest","2016-07-19 09:54:43am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+415,"415","::1","guest","2016-07-19 09:55:05am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+416,"416","::1","guest","2016-07-19 09:55:05am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+417,"417","::1","guest","2016-07-19 09:55:05am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+418,"418","::1","guest","2016-07-19 09:55:08am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+419,"419","::1","guest","2016-07-19 09:55:08am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+420,"420","::1","guest","2016-07-19 09:55:09am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+421,"421","::1","guest","2016-07-19 09:55:25am","Pressed cancel button","/barangay/modules/bsystem/business_permit.php"
+422,"422","::1","guest","2016-07-19 09:55:25am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+423,"423","::1","guest","2016-07-19 09:55:25am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+424,"424","::1","guest","2016-07-19 09:55:25am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+425,"425","::1","guest","2016-07-19 09:55:32am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+426,"426","::1","guest","2016-07-19 09:55:32am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+427,"427","::1","guest","2016-07-19 09:55:32am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+428,"428","::1","guest","2016-07-19 11:10:33am","Logged in","/barangay/modules/bsystem/main.php"
+429,"429","::1","guest","2016-07-19 11:10:33am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+430,"430","::1","guest","2016-07-19 11:10:33am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+431,"431","::1","guest","2016-07-19 11:10:33am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+432,"432","::1","guest","2016-07-19 11:10:36am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+433,"433","::1","guest","2016-07-19 11:10:36am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+434,"434","::1","guest","2016-07-19 11:10:36am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+435,"435","::1","guest","2016-07-19 11:15:18am","Pressed cancel button","/barangay/modules/bsystem/business_permit.php"
+436,"436","::1","guest","2016-07-19 11:15:18am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+437,"437","::1","guest","2016-07-19 11:15:18am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+438,"438","::1","guest","2016-07-19 11:15:19am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+439,"439","::1","guest","2016-07-19 11:15:24am","Pressed cancel button","/barangay/modules/bsystem/barangay_clearance.php"
+440,"440","::1","guest","2016-07-19 11:15:24am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+441,"441","::1","guest","2016-07-19 11:15:24am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+442,"442","::1","guest","2016-07-19 11:15:24am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+443,"443","::1","guest","2016-07-19 11:16:24am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+444,"444","::1","guest","2016-07-19 11:17:42am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+445,"445","::1","guest","2016-07-19 11:18:00am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+446,"446","::1","guest","2016-07-19 11:18:00am","Pressed cancel button","/barangay/modules/bsystem/cedula.php"
+447,"447","::1","guest","2016-07-19 11:18:00am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+448,"448","::1","guest","2016-07-19 11:18:01am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+449,"449","::1","guest","2016-07-19 11:18:01am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+450,"450","::1","guest","2016-07-19 11:18:04am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+451,"451","::1","guest","2016-07-19 11:18:04am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+452,"452","::1","guest","2016-07-19 11:24:08am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+453,"453","::1","guest","2016-07-19 11:24:09am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+454,"454","::1","guest","2016-07-19 11:24:09am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+455,"455","::1","guest","2016-07-19 11:24:11am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+456,"456","::1","guest","2016-07-19 11:24:11am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+457,"457","::1","guest","2016-07-19 11:24:11am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+458,"458","::1","guest","2016-07-19 11:24:16am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+459,"459","::1","guest","2016-07-19 11:24:52am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+460,"460","::1","guest","2016-07-19 11:30:08am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+461,"461","::1","guest","2016-07-19 11:30:47am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+462,"462","::1","guest","2016-07-19 11:32:14am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+463,"463","::1","guest","2016-07-19 11:34:59am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest' AND birth_date=''","/barangay/modules/bsystem/cedula.php"
+464,"464","::1","guest","2016-07-19 11:36:10am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest' AND birth_date='guest'","/barangay/modules/bsystem/cedula.php"
+465,"465","::1","guest","2016-07-19 11:36:43am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+466,"466","::1","guest","2016-07-19 11:36:58am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+467,"467","::1","guest","2016-07-20 09:40:32am","Logged in","/barangay/modules/bsystem/main.php"
+468,"468","::1","guest","2016-07-20 09:40:33am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+469,"469","::1","guest","2016-07-20 09:40:33am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+470,"470","::1","guest","2016-07-20 09:40:33am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+471,"471","::1","guest","2016-07-20 09:40:35am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+472,"472","::1","guest","2016-07-20 09:40:36am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+473,"473","::1","guest","2016-07-20 09:40:36am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+474,"474","::1","guest","2016-07-20 09:40:50am","Pressed cancel button","/barangay/modules/bsystem/business_permit.php"
+475,"475","::1","guest","2016-07-20 09:40:50am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+476,"476","::1","guest","2016-07-20 09:40:50am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+477,"477","::1","guest","2016-07-20 09:40:51am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+478,"478","::1","guest","2016-07-20 09:40:53am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+479,"479","::1","guest","2016-07-20 09:40:53am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+480,"480","::1","guest","2016-07-20 09:41:13am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+481,"481","::1","guest","2016-07-20 09:41:13am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+482,"482","::1","guest","2016-07-20 09:41:13am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+483,"483","::1","guest","2016-07-20 09:41:59am","Pressed cancel button","/barangay/modules/bsystem/business_permit.php"
+484,"484","::1","guest","2016-07-20 09:42:00am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+485,"485","::1","guest","2016-07-20 09:42:00am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+486,"486","::1","guest","2016-07-20 09:42:00am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+487,"487","::1","guest","2016-07-20 09:42:06am","Pressed cancel button","/barangay/modules/bsystem/barangay_clearance.php"
+488,"488","::1","guest","2016-07-20 09:42:06am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+489,"489","::1","guest","2016-07-20 09:42:06am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+490,"490","::1","guest","2016-07-20 09:42:07am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+491,"491","::1","guest","2016-07-20 09:42:14am","Pressed cancel button","/barangay/modules/bsystem/barangay_clearance.php"
+492,"492","::1","guest","2016-07-20 09:42:14am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+493,"493","::1","guest","2016-07-20 09:42:14am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+494,"494","::1","guest","2016-07-20 09:42:14am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+495,"495","::1","guest","2016-07-20 09:42:43am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+496,"496","::1","root","2016-07-20 09:43:04am","Logged in","/barangay/login.php"
+497,"497","::1","guest","2016-07-20 09:44:32am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+498,"498","::1","guest","2016-07-20 09:45:08am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+499,"499","::1","guest","2016-07-20 09:45:33am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+500,"500","::1","guest","2016-07-20 09:50:54am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+501,"501","::1","guest","2016-07-20 09:53:56am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+502,"502","::1","guest","2016-07-20 09:54:34am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+503,"503","::1","guest","2016-07-20 09:55:38am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+504,"504","::1","guest","2016-07-20 09:55:38am","Pressed cancel button","/barangay/modules/bsystem/cedula.php"
+505,"505","::1","guest","2016-07-20 09:55:38am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+506,"506","::1","guest","2016-07-20 09:55:38am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+507,"507","::1","guest","2016-07-20 09:55:38am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+508,"508","::1","guest","2016-07-20 09:58:37am","Pressed submit button","/barangay/modules/bsystem/business_permit.php"
+509,"509","::1","guest","2016-07-20 09:58:37am","Query Executed: INSERT INTO business_permit(business_permit_id, company_name, office_tel_num, office_address, email, website, fax_num, name_of_owner, contact_of_owner, name_of_mngr, contact_of_mngr, type_of_business, line_of_business) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isisssisisiss
+    [1] => 
+    [2] => Sample
+    [3] => 45676544444
+    [4] => Makati City
+    [5] => sample@sample.com
+    [6] => sample1.sample@sample.com
+    [7] => 7655466666
+    [8] => Elmo
+    [9] => 09876543234
+    [10] => Cookie Monster
+    [11] => 34567876543
+    [12] => Sole Proprietorship
+    [13] => CONSTRUCTION
+)
+","/barangay/modules/bsystem/business_permit.php"
+510,"510","::1","guest","2016-07-20 09:58:37am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+511,"511","::1","guest","2016-07-20 09:58:37am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+512,"512","::1","guest","2016-07-20 09:58:44am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+513,"513","::1","guest","2016-07-20 09:58:44am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+514,"514","::1","guest","2016-07-20 09:58:53am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+515,"515","::1","guest","2016-07-20 09:58:53am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+516,"516","::1","guest","2016-07-20 09:58:58am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+517,"517","::1","guest","2016-07-20 09:58:58am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+518,"518","::1","guest","2016-07-20 09:59:12am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+519,"519","::1","guest","2016-07-20 09:59:12am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+520,"520","::1","guest","2016-07-20 09:59:53am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+521,"521","::1","guest","2016-07-20 09:59:54am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+522,"522","::1","guest","2016-07-20 09:59:54am","Pressed submit button","/barangay/modules/bsystem/request.php"
+523,"523","::1","guest","2016-07-20 09:59:54am","Query Executed: INSERT INTO request(date_served, date_filled, request_id, citizen_id) VALUES(?,?,?,?)
+Array
+(
+    [0] => ssii
+    [1] => 
+    [2] => 2016-07-20
+    [3] => 
+    [4] => 23
+)
+","/barangay/modules/bsystem/request.php"
+524,"524","::1","guest","2016-07-20 09:59:54am","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 
+    [2] => 12
+    [3] => 1
+    [4] => 1
+    [5] => 5d3a295a264b8d759a39b808ce7bb696775f6315LagmanKamilaPOI.JPG
+    [6] => Not Accepted
+)
+","/barangay/modules/bsystem/request.php"
+525,"525","::1","guest","2016-07-20 10:00:03am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+526,"526","::1","guest","2016-07-20 10:00:03am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+527,"527","::1","guest","2016-07-20 10:00:03am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+528,"528","::1","guest","2016-07-20 10:00:47am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+529,"529","::1","guest","2016-07-20 10:00:47am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+530,"530","::1","guest","2016-07-20 10:00:47am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+531,"531","::1","guest","2016-07-20 10:00:59am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+532,"532","::1","guest","2016-07-20 10:01:04am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+533,"533","::1","guest","2016-07-20 10:01:04am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+534,"534","::1","guest","2016-07-20 10:01:04am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+535,"535","::1","guest","2016-07-20 10:36:40am","Logged in","/barangay/modules/bsystem/main.php"
+536,"536","::1","guest","2016-07-20 10:36:40am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+537,"537","::1","guest","2016-07-20 10:36:41am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+538,"538","::1","guest","2016-07-20 10:36:41am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+539,"539","::1","guest","2016-07-20 10:37:48am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+540,"540","::1","guest","2016-07-20 10:37:48am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+541,"541","::1","guest","2016-07-20 10:37:48am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+542,"542","::1","guest","2016-07-20 10:38:05am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+543,"543","::1","guest","2016-07-20 10:38:05am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+544,"544","::1","guest","2016-07-20 10:38:05am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+545,"545","::1","guest","2016-07-20 10:38:09am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+546,"546","::1","guest","2016-07-20 10:38:09am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+547,"547","::1","guest","2016-07-20 10:38:19am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+548,"548","::1","guest","2016-07-20 10:38:19am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+549,"549","::1","guest","2016-07-20 10:38:19am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+550,"550","::1","root","2016-07-20 10:38:38am","Logged in","/barangay/login.php"
+551,"551","::1","guest","2016-07-20 10:47:10am","Logged in","/barangay/modules/bsystem/main.php"
+552,"552","::1","guest","2016-07-20 10:47:10am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+553,"553","::1","guest","2016-07-20 10:47:10am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+554,"554","::1","guest","2016-07-20 10:47:10am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+555,"555","::1","guest","2016-07-20 10:48:26am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+556,"556","::1","guest","2016-07-20 10:48:26am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+557,"557","::1","guest","2016-07-20 10:48:26am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+558,"558","::1","guest","2016-07-20 10:48:33am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+559,"559","::1","guest","2016-07-20 10:48:33am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+560,"560","::1","guest","2016-07-20 10:48:45am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+561,"561","::1","guest","2016-07-20 10:48:45am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+562,"562","::1","guest","2016-07-20 10:48:53am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+563,"563","::1","guest","2016-07-20 10:48:53am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+564,"564","::1","guest","2016-07-20 10:49:23am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+565,"565","::1","guest","2016-07-20 10:49:23am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+566,"566","::1","guest","2016-07-20 10:49:23am","Pressed submit button","/barangay/modules/bsystem/request.php"
+567,"567","::1","guest","2016-07-20 10:49:23am","Query Executed: INSERT INTO request(date_served, date_filled, request_id, citizen_id) VALUES(?,?,?,?)
+Array
+(
+    [0] => ssii
+    [1] => 
+    [2] => 2016-07-20
+    [3] => 
+    [4] => 23
+)
+","/barangay/modules/bsystem/request.php"
+568,"568","::1","guest","2016-07-20 10:49:23am","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 
+    [2] => 13
+    [3] => 5
+    [4] => 10
+    [5] => 33df2ce58b3e02ea4e48aade03457cd14c744d67LagmanKamilaPOI.JPG
+    [6] => Not Accepted
+)
+","/barangay/modules/bsystem/request.php"
+569,"569","::1","guest","2016-07-20 10:51:24am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+570,"570","::1","guest","2016-07-20 10:51:24am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+571,"571","::1","guest","2016-07-20 10:51:24am","Pressed submit button","/barangay/modules/bsystem/request.php"
+572,"572","::1","guest","2016-07-20 10:51:24am","Query Executed: INSERT INTO request(date_served, date_filled, request_id, citizen_id) VALUES(?,?,?,?)
+Array
+(
+    [0] => ssii
+    [1] => 
+    [2] => 2016-07-20
+    [3] => 
+    [4] => 23
+)
+","/barangay/modules/bsystem/request.php"
+573,"573","::1","guest","2016-07-20 10:51:25am","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 
+    [2] => 14
+    [3] => 5
+    [4] => 10
+    [5] => 33df2ce58b3e02ea4e48aade03457cd14c744d67LagmanKamilaPOI.JPG
+    [6] => Not Accepted
+)
+","/barangay/modules/bsystem/request.php"
+574,"574","::1","guest","2016-07-20 10:51:46am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+575,"575","::1","guest","2016-07-20 10:51:46am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+576,"576","::1","root","2016-07-20 10:54:06am","Pressed submit button","/barangay/modules/request/add_sub_doc.php"
+577,"577","::1","root","2016-07-20 10:56:34am","Pressed submit button","/barangay/modules/request/add_sub_doc.php"
+578,"578","::1","root","2016-07-20 10:56:34am","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 3
+    [2] => 
+    [3] => 3
+    [4] => 2
+    [5] => b9f2c8c8e6473fa1a2cfa866ad3f5c392f2aa3d0465b9c8662398f50e5856f0717f53ec801f967e4LagmanKamilaPOI.JPG
+    [6] => Accepted
+)
+","/barangay/modules/request/add_sub_doc.php"
+579,"579","::1","guest","2016-07-20 10:57:23am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+580,"580","::1","guest","2016-07-20 10:57:23am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+581,"581","::1","guest","2016-07-20 10:57:29am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+582,"582","::1","guest","2016-07-20 10:57:29am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+583,"583","::1","guest","2016-07-20 10:57:56am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+584,"584","::1","guest","2016-07-20 10:57:56am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+585,"585","::1","guest","2016-07-20 10:57:56am","Pressed submit button","/barangay/modules/bsystem/request.php"
+586,"586","::1","guest","2016-07-20 10:57:56am","Query Executed: INSERT INTO request(date_served, date_filled, request_id, citizen_id) VALUES(?,?,?,?)
+Array
+(
+    [0] => ssii
+    [1] => 
+    [2] => 2016-07-20
+    [3] => 
+    [4] => 23
+)
+","/barangay/modules/bsystem/request.php"
+587,"587","::1","root","2016-07-20 11:01:36am","Pressed submit button","/barangay/modules/request/add_request.php"
+588,"588","::1","root","2016-07-20 11:01:36am","Query Executed: INSERT INTO request(date_served, date_filled, request_id, citizen_id) VALUES(?,?,?,?)
+Array
+(
+    [0] => ssii
+    [1] => 2016-07-20
+    [2] => 2016-07-20
+    [3] => 
+    [4] => 23
+)
+","/barangay/modules/request/add_request.php"
+589,"589","::1","root","2016-07-20 11:01:36am","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 16
+    [2] => 
+    [3] => 3
+    [4] => 2
+    [5] => 5d3a295a264b8d759a39b808ce7bb696775f6315LagmanKamilaPOI.JPG
+    [6] => Accepted
+)
+","/barangay/modules/request/add_request.php"
+590,"590","::1","root","2016-07-20 11:01:36am","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 16
+    [2] => 
+    [3] => 3
+    [4] => 6
+    [5] => 465b9c8662398f50e5856f0717f53ec801f967e4LagmanKamilaPOI.JPG
+    [6] => Accepted
+)
+","/barangay/modules/request/add_request.php"
+591,"591","::1","guest","2016-07-20 11:04:18am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+592,"592","::1","guest","2016-07-20 11:04:18am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+593,"593","::1","guest","2016-07-20 11:04:18am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+594,"594","::1","guest","2016-07-20 11:04:21am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+595,"595","::1","guest","2016-07-20 11:04:21am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+596,"596","::1","guest","2016-07-20 11:04:30am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+597,"597","::1","guest","2016-07-20 11:04:30am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+598,"598","::1","guest","2016-07-20 11:04:39am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+599,"599","::1","guest","2016-07-20 11:04:39am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+600,"600","::1","guest","2016-07-20 11:04:59am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+601,"601","::1","guest","2016-07-20 11:04:59am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+602,"602","::1","guest","2016-07-20 11:04:59am","Pressed submit button","/barangay/modules/bsystem/request.php"
+603,"603","::1","guest","2016-07-20 11:04:59am","Query Executed: INSERT INTO request(date_served, date_filled, request_id, citizen_id) VALUES(?,?,?,?)
+Array
+(
+    [0] => ssii
+    [1] => 
+    [2] => 2016-07-20
+    [3] => 
+    [4] => 23
+)
+","/barangay/modules/bsystem/request.php"
+604,"604","::1","guest","2016-07-20 11:04:59am","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 17
+    [2] => 
+    [3] => 3
+    [4] => 2
+    [5] => 33df2ce58b3e02ea4e48aade03457cd14c744d67LagmanKamilaPOI.JPG
+    [6] => Not Accepted
+)
+","/barangay/modules/bsystem/request.php"
+605,"605","::1","guest","2016-07-20 11:04:59am","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 17
+    [2] => 
+    [3] => 3
+    [4] => 6
+    [5] => 465b9c8662398f50e5856f0717f53ec801f967e4LagmanKamilaPOI.JPG
+    [6] => Not Accepted
+)
+","/barangay/modules/bsystem/request.php"
+606,"606","::1","guest","2016-07-20 11:06:27am","Query executed: SELECT bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/notification1.php"
+607,"607","::1","guest","2016-07-20 11:06:30am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+608,"608","::1","guest","2016-07-20 11:06:31am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+609,"609","::1","guest","2016-07-20 11:06:31am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+610,"610","::1","guest","2016-07-20 11:16:45am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+611,"611","::1","guest","2016-07-20 11:16:45am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+612,"612","::1","guest","2016-07-20 11:16:45am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+613,"613","::1","guest","2016-07-20 11:28:15am","Pressed submit button","/barangay/modules/bsystem/register.php"
+614,"614","::1","guest","2016-07-20 11:28:51am","Pressed submit button","/barangay/modules/bsystem/register.php"
+615,"615","::1","guest","2016-07-20 11:30:23am","Pressed submit button","/barangay/modules/bsystem/register.php"
+616,"616","::1","guest","2016-07-20 11:31:07am","Pressed cancel button","/barangay/modules/bsystem/register.php"
+617,"617","::1","guest","2016-07-20 11:31:11am","Logged in","/barangay/modules/bsystem/main.php"
+618,"618","::1","guest","2016-07-20 11:31:11am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+619,"619","::1","guest","2016-07-20 11:31:11am","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+620,"620","::1","guest","2016-07-20 11:31:11am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+621,"621","::1","guest","2016-07-20 11:31:13am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+622,"622","::1","guest","2016-07-20 11:31:13am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+623,"623","::1","guest","2016-07-20 11:31:13am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+624,"624","::1","guest","2016-07-20 11:31:17am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+625,"625","::1","guest","2016-07-20 11:33:04am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+626,"626","::1","guest","2016-07-20 11:33:04am","Pressed cancel button","/barangay/modules/bsystem/cedula.php"
+627,"627","::1","guest","2016-07-20 11:33:04am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+628,"628","::1","guest","2016-07-20 11:33:04am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+629,"629","::1","guest","2016-07-20 11:33:04am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+630,"630","::1","guest","2016-07-20 11:33:07am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+631,"631","::1","guest","2016-07-20 11:33:07am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+632,"632","::1","guest","2016-07-20 11:33:14am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+633,"633","::1","guest","2016-07-20 11:33:14am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+634,"634","::1","guest","2016-07-20 11:33:14am","Pressed cancel button","/barangay/modules/bsystem/request.php"
+635,"635","::1","guest","2016-07-20 11:33:14am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+636,"636","::1","guest","2016-07-20 11:33:14am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+637,"637","::1","guest","2016-07-20 11:33:14am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+638,"638","::1","guest","2016-07-20 11:33:17am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+639,"639","::1","guest","2016-07-20 11:40:11am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+640,"640","::1","guest","2016-07-20 11:40:11am","Pressed cancel button","/barangay/modules/bsystem/cedula.php"
+641,"641","::1","guest","2016-07-20 11:40:11am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+642,"642","::1","guest","2016-07-20 11:40:11am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+643,"643","::1","guest","2016-07-20 11:40:12am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+644,"644","::1","guest","2016-07-20 11:40:30am","Pressed cancel button","/barangay/modules/bsystem/business_permit.php"
+645,"645","::1","guest","2016-07-20 11:40:30am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+646,"646","::1","guest","2016-07-20 11:40:30am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+647,"647","::1","guest","2016-07-20 11:40:30am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+648,"648","::1","guest","2016-07-20 11:41:22am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+649,"649","::1","guest","2016-07-20 11:41:22am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+650,"650","::1","guest","2016-07-20 11:41:22am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+651,"651","::1","guest","2016-07-20 11:41:25am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+652,"652","::1","guest","2016-07-20 11:41:25am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+653,"653","::1","guest","2016-07-20 11:41:59am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+654,"654","::1","guest","2016-07-20 11:41:59am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+655,"655","::1","guest","2016-07-20 11:41:59am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+656,"656","::1","guest","2016-07-20 11:42:06am","Pressed cancel button","/barangay/modules/bsystem/barangay_clearance.php"
+657,"657","::1","guest","2016-07-20 11:42:06am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+658,"658","::1","guest","2016-07-20 11:42:06am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+659,"659","::1","guest","2016-07-20 11:42:06am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+660,"660","::1","guest","2016-07-20 11:42:10am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+661,"661","::1","guest","2016-07-20 11:42:10am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+662,"662","::1","guest","2016-07-20 11:42:15am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+663,"663","::1","guest","2016-07-20 11:42:15am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+664,"664","::1","guest","2016-07-20 11:42:15am","Pressed cancel button","/barangay/modules/bsystem/request.php"
+665,"665","::1","guest","2016-07-20 11:42:15am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+666,"666","::1","guest","2016-07-20 11:42:15am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+667,"667","::1","guest","2016-07-20 11:42:15am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+668,"668","::1","guest","2016-07-20 11:42:20am","Query executed: SELECT citizen_id,birth_date FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+669,"669","::1","guest","2016-07-20 11:45:20am","Query executed: SELECT citizen_id,birth_date,birth_place,weight,height,civil_status FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+670,"670","::1","guest","2016-07-20 11:49:15am","Query executed: SELECT citizen_id,birth_date,birth_place,weight,height,civil_status FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+671,"671","::1","guest","2016-07-20 11:49:36am","Query executed: SELECT citizen_id,birth_date,birth_place,weight,height,civil_status FROM citizen WHERE username='guest'","/barangay/modules/bsystem/cedula.php"
+672,"672","::1","guest","2016-07-20 11:49:36am","Pressed cancel button","/barangay/modules/bsystem/cedula.php"
+673,"673","::1","guest","2016-07-20 11:49:36am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+674,"674","::1","guest","2016-07-20 11:49:36am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+675,"675","::1","guest","2016-07-20 11:49:36am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+676,"676","::1","guest","2016-07-20 11:49:42am","Pressed cancel button","/barangay/modules/bsystem/barangay_clearance.php"
+677,"677","::1","guest","2016-07-20 11:49:42am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+678,"678","::1","guest","2016-07-20 11:49:42am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+679,"679","::1","guest","2016-07-20 11:49:42am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+680,"680","::1","guest","2016-07-20 11:49:45am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+681,"681","::1","guest","2016-07-20 11:49:45am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+682,"682","::1","guest","2016-07-20 11:52:32am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+683,"683","::1","guest","2016-07-20 11:52:32am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+684,"684","::1","guest","2016-07-20 11:53:32am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+685,"685","::1","guest","2016-07-20 11:53:32am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+686,"686","::1","guest","2016-07-20 11:53:37am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+687,"687","::1","guest","2016-07-20 11:53:37am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+688,"688","::1","guest","2016-07-20 11:53:38am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+689,"689","::1","guest","2016-07-20 11:53:42am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+690,"690","::1","guest","2016-07-20 11:53:42am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+691,"691","::1","guest","2016-07-20 11:54:18am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+692,"692","::1","guest","2016-07-20 11:54:18am","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+693,"693","::1","guest","2016-07-20 11:54:18am","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+694,"694","::1","guest","2016-07-20 11:54:21am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+695,"695","::1","guest","2016-07-20 11:54:21am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+696,"696","::1","guest","2016-07-20 11:54:28am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+697,"697","::1","guest","2016-07-20 11:54:28am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+698,"698","::1","guest","2016-07-20 11:54:28am","Pressed submit button","/barangay/modules/bsystem/request.php"
+699,"699","::1","guest","2016-07-20 11:59:28am","Pressed submit button","/barangay/modules/bsystem/register.php"
+700,"700","::1","guest","2016-07-20 11:59:34am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+701,"701","::1","guest","2016-07-20 11:59:34am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+702,"702","::1","guest","2016-07-20 11:59:38am","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+703,"703","::1","guest","2016-07-20 11:59:38am","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+704,"704","::1","guest","2016-07-20 11:59:38am","Pressed submit button","/barangay/modules/bsystem/request.php"
+705,"705","::1","guest","2016-07-20 12:00:53pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+706,"706","::1","guest","2016-07-20 12:00:53pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+707,"707","::1","guest","2016-07-20 12:00:58pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+708,"708","::1","guest","2016-07-20 12:00:58pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+709,"709","::1","guest","2016-07-20 12:00:58pm","Pressed submit button","/barangay/modules/bsystem/request.php"
+710,"710","::1","guest","2016-07-20 12:03:55pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+711,"711","::1","guest","2016-07-20 12:03:55pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+712,"712","::1","guest","2016-07-20 12:03:55pm","Pressed submit button","/barangay/modules/bsystem/request.php"
+713,"713","::1","guest","2016-07-20 12:03:59pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+714,"714","::1","guest","2016-07-20 12:03:59pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+715,"715","::1","guest","2016-07-20 12:03:59pm","Pressed submit button","/barangay/modules/bsystem/request.php"
+716,"716","::1","guest","2016-07-20 12:04:43pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+717,"717","::1","guest","2016-07-20 12:04:43pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+718,"718","::1","guest","2016-07-20 12:04:43pm","Pressed submit button","/barangay/modules/bsystem/request.php"
+719,"719","::1","guest","2016-07-20 12:08:17pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+720,"720","::1","guest","2016-07-20 12:08:17pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+721,"721","::1","guest","2016-07-20 12:08:17pm","Pressed submit button","/barangay/modules/bsystem/request.php"
+722,"722","::1","guest","2016-07-20 12:09:08pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+723,"723","::1","guest","2016-07-20 12:09:08pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+724,"724","::1","guest","2016-07-20 12:09:11pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+725,"725","::1","guest","2016-07-20 12:09:11pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+726,"726","::1","guest","2016-07-20 12:09:11pm","Pressed submit button","/barangay/modules/bsystem/request.php"
+727,"727","::1","guest","2016-07-20 12:09:22pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+728,"728","::1","guest","2016-07-20 12:09:22pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+729,"729","::1","guest","2016-07-20 12:09:22pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+730,"730","::1","guest","2016-07-20 12:09:29pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+731,"731","::1","guest","2016-07-20 12:09:29pm","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+732,"732","::1","guest","2016-07-20 12:09:29pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+733,"733","::1","guest","2016-07-20 12:09:41pm","Logged in","/barangay/modules/bsystem/main.php"
+734,"734","::1","guest","2016-07-20 12:09:41pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+735,"735","::1","guest","2016-07-20 12:09:41pm","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+736,"736","::1","guest","2016-07-20 12:09:41pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+737,"737","::1","guest","2016-07-20 12:09:43pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+738,"738","::1","guest","2016-07-20 12:09:43pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+739,"739","::1","guest","2016-07-20 12:09:43pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+740,"740","::1","guest","2016-07-20 12:09:48pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+741,"741","::1","guest","2016-07-20 12:09:48pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+742,"742","::1","guest","2016-07-20 12:10:59pm","Pressed submit button","/barangay/modules/bsystem/register.php"
+743,"743","::1","guest","2016-07-20 12:11:36pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+744,"744","::1","guest","2016-07-20 12:11:36pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+745,"745","::1","guest","2016-07-20 12:11:36pm","Pressed cancel button","/barangay/modules/bsystem/request.php"
+746,"746","::1","guest","2016-07-20 12:11:36pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+747,"747","::1","guest","2016-07-20 12:11:36pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+748,"748","::1","guest","2016-07-20 12:11:36pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+749,"749","::1","guest","2016-07-20 12:12:18pm","Pressed cancel button","/barangay/modules/bsystem/business_permit.php"
+750,"750","::1","guest","2016-07-20 12:12:18pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+751,"751","::1","guest","2016-07-20 12:12:18pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+752,"752","::1","guest","2016-07-20 12:12:18pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+753,"753","::1","guest","2016-07-20 12:12:51pm","Pressed cancel button","/barangay/modules/bsystem/barangay_clearance.php"
+754,"754","::1","guest","2016-07-20 12:12:51pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+755,"755","::1","guest","2016-07-20 12:12:51pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+756,"756","::1","guest","2016-07-20 12:12:51pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+757,"757","::1","root","2016-07-20 12:13:14pm","Pressed submit button","/barangay/modules/request/edit_request.php"
+758,"758","::1","root","2016-07-20 12:14:02pm","Pressed submit button","/barangay/modules/citizen/edit_citizen.php"
+759,"759","::1","root","2016-07-20 12:14:02pm","Query Executed: UPDATE citizen SET first_name = ?, middle_name = ?, last_name = ?, gender = ?, birth_date = ?, birth_place = ?, weight = ?, height = ?, civil_status = ?, occupation = ?, cellphone_number = ?, telephone_number = ?, region = ?, province = ?, city = ?, district = ?, barangay = ?, zip_code = ?, street = ?, house_number = ?, nationality = ?, username = ?, password = ?, email_address = ?, father_first_name = ?, father_middle_name = ?, father_last_name = ?, mother_first_name = ?, mother_middle_name = ?, mother_last_name = ?, is_citizen = ?, date_registered = ?, is_official = ? WHERE citizen_id = ?
+Array
+(
+    [0] => sssssssissiisssssisssssssssssssssi
+    [1] => Guest
+    [2] => Who
+    [3] => I Am II
+    [4] => Male
+    [5] => 1997-01-05
+    [6] => Makati
+    [7] => 46.00
+    [8] => 167
+    [9] => Single
+    [10] => Student
+    [11] => 2147483647
+    [12] => 0
+    [13] => 3
+    [14] => 54
+    [15] => 366
+    [16] => 24866
+    [17] => 24866
+    [18] => 0
+    [19] => Address
+    [20] => 00
+    [21] => Filipino
+    [22] => guest
+    [23] => qwerty
+    [24] => guest.guest@guest.guest
+    [25] => Guest
+    [26] => Who
+    [27] => I Am
+    [28] => No
+    [29] => You
+    [30] => Cant
+    [31] => Yes
+    [32] => 2016-07-13
+    [33] => Yes
+    [34] => 23
+)
+","/barangay/modules/citizen/edit_citizen.php"
+760,"760","::1","root","2016-07-20 12:14:02pm","Query Executed: DELETE FROM validate WHERE citizen_id = ?
+Array
+(
+    [0] => i
+    [1] => 23
+)
+","/barangay/modules/citizen/edit_citizen.php"
+761,"761","::1","root","2016-07-20 12:14:02pm","Query Executed: INSERT INTO validate(validate_id, proof_of_id, proof_of_address, citizen_id, status) VALUES(?,?,?,?,?)
+Array
+(
+    [0] => issis
+    [1] => 
+    [2] => b4926b1cd11942bea5960bc1bb04cc8afd8063987d248a669cfd896aa46b23e76f4372bdd643d74c6761fadf9cdda24c3d06d79f29afe7a33d6ff6dcLagman,KamilaPOI.JPG
+    [3] => 60807a2b263c1af257fdaab6bab950d39e2f2d668a979017be71c837e7bc4298765c72bf3424884fDelunaJhonelPOA.jpg
+    [4] => 23
+    [5] => Accepted
+)
+","/barangay/modules/citizen/edit_citizen.php"
+762,"762","::1","root","2016-07-20 12:14:24pm","Pressed submit button","/barangay/modules/request/edit_request.php"
+763,"763","::1","root","2016-07-20 12:17:09pm","Pressed submit button","/barangay/modules/request/edit_request.php"
+764,"764","::1","root","2016-07-20 12:17:10pm","Query Executed: UPDATE request SET date_served = ?, date_filled = ?, citizen_id = ? WHERE request_id = ?
+Array
+(
+    [0] => ssii
+    [1] => 2016-07-20
+    [2] => 2016-07-20
+    [3] => 23
+    [4] => 17
+)
+","/barangay/modules/request/edit_request.php"
+765,"765","::1","root","2016-07-20 12:17:10pm","Query Executed: DELETE FROM sub_doc WHERE request_id = ? AND sub_doc_id = ?
+Array
+(
+    [0] => ii
+    [1] => 17
+    [2] => 
+)
+","/barangay/modules/request/edit_request.php"
+766,"766","::1","root","2016-07-20 12:17:10pm","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 17
+    [2] => 
+    [3] => 3
+    [4] => 2
+    [5] => 
+    [6] => Not Accepted
+)
+","/barangay/modules/request/edit_request.php"
+767,"767","::1","root","2016-07-20 12:17:10pm","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 17
+    [2] => 
+    [3] => 3
+    [4] => 6
+    [5] => 
+    [6] => Not Accepted
+)
+","/barangay/modules/request/edit_request.php"
+768,"768","::1","root","2016-07-20 12:17:19pm","Failed file download: LagmanKamilaPOI.JPG (C:\xampp\htdocs/barangay/tmp/465b9c8662398f50e5856f0717f53ec801f967e4LagmanKamilaPOI.JPG)","/barangay/download_generic.php"
+769,"769","::1","root","2016-07-20 12:19:33pm","Failed file download: LagmanKamilaPOI.JPG (C:\xampp\htdocs/barangay/tmp/5d3a295a264b8d759a39b808ce7bb696775f6315LagmanKamilaPOI.JPG)","/barangay/download_generic.php"
+770,"770","::1","root","2016-07-20 12:19:50pm","Successful file download: 7d248a669cfd896aa46b23e76f4372bdd643d74c6761fadf9cdda24c3d06d79f29afe7a33d6ff6dcLagman,KamilaPOI.JPG (C:\xampp\htdocs/barangay/tmp/b4926b1cd11942bea5960bc1bb04cc8afd8063987d248a669cfd896aa46b23e76f4372bdd643d74c6761fadf9cdda24c3d06d79f29afe7a33d6ff6dcLagman,KamilaPOI.JPG)","/barangay/download_generic.php"
+771,"771","::1","root","2016-07-20 12:20:42pm","Pressed submit button","/barangay/modules/request/edit_request.php"
+772,"772","::1","root","2016-07-20 12:20:42pm","Query Executed: UPDATE request SET date_served = ?, date_filled = ?, citizen_id = ? WHERE request_id = ?
+Array
+(
+    [0] => ssii
+    [1] => 2016-07-20
+    [2] => 2016-07-20
+    [3] => 23
+    [4] => 17
+)
+","/barangay/modules/request/edit_request.php"
+773,"773","::1","root","2016-07-20 12:20:42pm","Query Executed: DELETE FROM sub_doc WHERE request_id = ? AND sub_doc_id = ?
+Array
+(
+    [0] => ii
+    [1] => 17
+    [2] => 
+)
+","/barangay/modules/request/edit_request.php"
+774,"774","::1","root","2016-07-20 12:20:42pm","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 17
+    [2] => 
+    [3] => 3
+    [4] => 2
+    [5] => 
+    [6] => Not Accepted
+)
+","/barangay/modules/request/edit_request.php"
+775,"775","::1","root","2016-07-20 12:20:42pm","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 17
+    [2] => 
+    [3] => 3
+    [4] => 6
+    [5] => 
+    [6] => Not Accepted
+)
+","/barangay/modules/request/edit_request.php"
+776,"776","::1","root","2016-07-20 12:20:42pm","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 17
+    [2] => 
+    [3] => 3
+    [4] => 2
+    [5] => 
+    [6] => Not Accepted
+)
+","/barangay/modules/request/edit_request.php"
+777,"777","::1","root","2016-07-20 12:20:42pm","Query Executed: INSERT INTO sub_doc(request_id, sub_doc_id, document_id, requirement_id, requirement_doc, status) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => iiiiss
+    [1] => 17
+    [2] => 
+    [3] => 3
+    [4] => 6
+    [5] => 
+    [6] => Not Accepted
+)
+","/barangay/modules/request/edit_request.php"
+778,"778","::1","root","2016-07-20 12:20:48pm","Failed file download: LagmanKamilaPOI.JPG (C:\xampp\htdocs/barangay/tmp/33df2ce58b3e02ea4e48aade03457cd14c744d67LagmanKamilaPOI.JPG)","/barangay/download_generic.php"
+779,"779","::1","root","2016-07-20 12:23:10pm","Logged out","/barangay/end.php"
+780,"780","::1","guest","2016-07-20 12:23:15pm","Logged in","/barangay/login.php"
+781,"781","::1","guest","2016-07-20 12:23:18pm","Logged out","/barangay/end.php"
+782,"782","::1","guest","2016-07-20 12:23:33pm","Logged in","/barangay/login.php"
+783,"783","::1","guest","2016-07-20 12:23:50pm","Logged out","/barangay/end.php"
+784,"784","::1","guest","2016-07-20 12:25:18pm","Pressed cancel button","/barangay/modules/bsystem/barangay_clearance.php"
+785,"785","::1","guest","2016-07-20 12:25:18pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+786,"786","::1","guest","2016-07-20 12:25:18pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+787,"787","::1","guest","2016-07-20 12:25:18pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+788,"788","::1","guest","2016-07-20 12:25:21pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+789,"789","::1","guest","2016-07-20 12:25:21pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+790,"790","::1","guest","2016-07-20 12:25:47pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+791,"791","::1","guest","2016-07-20 12:25:47pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+792,"792","::1","guest","2016-07-20 12:25:47pm","Pressed submit button","/barangay/modules/bsystem/request.php"
+793,"793","::1","guest","2016-07-20 12:25:58pm","Pressed submit button","/barangay/modules/bsystem/register.php"
+794,"794","::1","guest","2016-07-20 12:26:18pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+795,"795","::1","guest","2016-07-20 12:26:18pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+796,"796","::1","guest","2016-07-20 12:26:18pm","Pressed cancel button","/barangay/modules/bsystem/request.php"
+797,"797","::1","guest","2016-07-20 12:26:18pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+798,"798","::1","guest","2016-07-20 12:26:18pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+799,"799","::1","guest","2016-07-20 12:26:19pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+800,"800","::1","guest","2016-07-20 12:26:59pm","Pressed cancel button","/barangay/modules/bsystem/business_permit.php"
+801,"801","::1","guest","2016-07-20 12:26:59pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+802,"802","::1","guest","2016-07-20 12:26:59pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+803,"803","::1","guest","2016-07-20 12:26:59pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+804,"804","::1","Not Logged In","2016-07-20 12:59:33pm","Pressed submit button","/barangay/modules/bsystem/register.php"
+805,"805","::1","guest","2016-07-20 01:00:28pm","Logged in","/barangay/modules/bsystem/main.php"
+806,"806","::1","guest","2016-07-20 01:00:29pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+807,"807","::1","guest","2016-07-20 01:00:29pm","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+808,"808","::1","guest","2016-07-20 01:00:29pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+809,"809","::1","guest","2016-07-20 01:00:39pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+810,"810","::1","guest","2016-07-20 01:00:39pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+811,"811","::1","guest","2016-07-20 01:00:39pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+812,"812","::1","guest","2016-07-20 01:00:44pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+813,"813","::1","guest","2016-07-20 01:00:44pm","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+814,"814","::1","guest","2016-07-20 01:00:52pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/about.php"
+815,"815","::1","guest","2016-07-20 01:01:05pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/contact.php"
+816,"816","::1","guest","2016-07-20 02:47:58pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/contact.php"
+817,"817","::1","guest","2016-07-20 02:48:33pm","Logged out","/barangay/end.php"
+818,"818","::1","root","2016-07-20 02:48:38pm","Logged in","/barangay/login.php"
+819,"819","::1","root","2016-07-20 02:59:56pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+820,"820","::1","root","2016-07-20 02:59:56pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+821,"821","::1","root","2016-07-20 02:59:56pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+822,"822","::1","root","2016-07-20 02:59:59pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+823,"823","::1","root","2016-07-20 02:59:59pm","Query executed: SELECT citizen_id FROM citizen WHERE username='root'","/barangay/modules/bsystem/request.php"
+824,"824","::1","root","2016-07-20 03:15:42pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+825,"825","::1","root","2016-07-20 03:15:43pm","Query executed: SELECT citizen_id FROM citizen WHERE username='root'","/barangay/modules/bsystem/request.php"
+826,"826","::1","root","2016-07-20 03:15:48pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+827,"827","::1","root","2016-07-20 03:15:48pm","Query executed: SELECT citizen_id FROM citizen WHERE username='root'","/barangay/modules/bsystem/request.php"
+828,"828","::1","root","2016-07-20 03:16:32pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+829,"829","::1","root","2016-07-20 03:16:32pm","Query executed: SELECT citizen_id FROM citizen WHERE username='root'","/barangay/modules/bsystem/request.php"
+830,"830","::1","root","2016-07-20 03:16:36pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+831,"831","::1","root","2016-07-20 03:16:36pm","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+832,"832","::1","root","2016-07-20 03:16:36pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+833,"833","::1","guest","2016-07-20 03:16:56pm","Logged in","/barangay/modules/bsystem/main.php"
+834,"834","::1","guest","2016-07-20 03:16:56pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+835,"835","::1","guest","2016-07-20 03:16:56pm","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+836,"836","::1","guest","2016-07-20 03:16:56pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+837,"837","::1","guest","2016-07-20 03:16:59pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+838,"838","::1","guest","2016-07-20 03:17:00pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+839,"839","::1","guest","2016-07-20 03:17:00pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+840,"840","::1","guest","2016-07-20 03:17:04pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+841,"841","::1","guest","2016-07-20 03:17:04pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+842,"842","::1","guest","2016-07-20 03:17:33pm","ILLEGAL ACCESS ATTEMPT - Tried to access '/barangay/modules/document/listview_document.php' without sufficient privileges.","/barangay/modules/document/listview_document.php"
+843,"843","::1","Not Logged In","2016-07-20 03:18:49pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+844,"844","::1","Not Logged In","2016-07-20 03:18:49pm","Query executed: SELECT citizen_id FROM citizen WHERE username=''","/barangay/modules/bsystem/request.php"
+845,"845","::1","Not Logged In","2016-07-20 03:19:34pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+846,"846","::1","Not Logged In","2016-07-20 03:19:34pm","Query executed: SELECT citizen_id FROM citizen WHERE username=''","/barangay/modules/bsystem/request.php"
+847,"847","::1","Not Logged In","2016-07-20 03:22:03pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+848,"848","::1","Not Logged In","2016-07-20 03:22:03pm","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+849,"849","::1","Not Logged In","2016-07-20 03:22:03pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+850,"850","::1","guest","2016-07-20 03:22:16pm","Logged in","/barangay/modules/bsystem/main.php"
+851,"851","::1","guest","2016-07-20 03:22:16pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+852,"852","::1","guest","2016-07-20 03:22:16pm","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+853,"853","::1","guest","2016-07-20 03:22:16pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+854,"854","::1","guest","2016-07-20 03:22:18pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+855,"855","::1","guest","2016-07-20 03:22:18pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+856,"856","::1","guest","2016-07-20 03:22:18pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+857,"857","::1","guest","2016-07-20 03:22:20pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+858,"858","::1","guest","2016-07-20 03:22:20pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+859,"859","::1","guest","2016-07-20 03:22:24pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+860,"860","::1","guest","2016-07-20 03:22:24pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+861,"861","::1","guest","2016-07-20 03:22:24pm","Pressed submit button","/barangay/modules/bsystem/request.php"
+862,"862","::1","guest","2016-07-20 03:24:03pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+863,"863","::1","guest","2016-07-20 03:24:03pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+864,"864","::1","guest","2016-07-20 03:24:19pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+865,"865","::1","guest","2016-07-20 03:24:19pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+866,"866","::1","guest","2016-07-20 03:24:49pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+867,"867","::1","guest","2016-07-20 03:24:50pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+868,"868","::1","guest","2016-07-20 03:26:11pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+869,"869","::1","guest","2016-07-20 03:26:11pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+870,"870","::1","guest","2016-07-20 03:26:52pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/request.php"
+871,"871","::1","guest","2016-07-20 03:26:52pm","Query executed: SELECT citizen_id FROM citizen WHERE username='guest'","/barangay/modules/bsystem/request.php"
+872,"872","::1","guest","2016-07-20 03:27:07pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+873,"873","::1","guest","2016-07-20 03:27:07pm","Query executed: SELECT bulletin_id, bulletin_name,bulletin_description,file_document FROM bulletin WHERE category='information' ","/barangay/modules/bsystem/home.php"
+874,"874","::1","guest","2016-07-20 03:27:07pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/home.php"
+875,"875","::1","guest","2016-07-20 03:27:12pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/documents.php"
+876,"876","::1","guest","2016-07-20 03:27:12pm","Query executed: SELECT d.document_name, r.requirement_name FROM document d JOIN requirement r ON d.document_id = r.document_id WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+877,"877","::1","guest","2016-07-20 03:27:12pm","Query executed: SELECT DISTINCT document_name, document_description FROM document WHERE is_offered='yes'","/barangay/modules/bsystem/documents.php"
+878,"878","::1","guest","2016-07-20 03:27:19pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+879,"879","::1","guest","2016-07-20 03:27:19pm","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+880,"880","::1","guest","2016-07-20 03:27:25pm","Query executed: SELECT bulletin_id,file_document FROM bulletin WHERE category='Main Event' ORDER BY bulletin_id DESC ","/barangay/modules/bsystem/information.php"
+881,"881","::1","guest","2016-07-20 03:27:25pm","Query executed: SELECT bulletin_id,bulletin_name,bulletin_description,file_document FROM bulletin WHERE category in ('education','health')  ","/barangay/modules/bsystem/information.php"
+882,"882","::1","root","2016-07-20 03:27:44pm","Logged in","/barangay/login.php"
+883,"883","::1","root","2016-07-20 03:30:00pm","Pressed cancel button","/barangay/modules/document/edit_business_permit.php"
+884,"884","::1","root","2016-07-20 03:33:16pm","Pressed submit button","/barangay/sysadmin/security_monitor.php"
+884,"","","","","",""

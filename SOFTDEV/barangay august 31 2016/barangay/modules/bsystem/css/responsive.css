@@ -1,0 +1,171 @@
+
+
+/* ------------------900px------------------------------- */
+
+
+
+@media screen and (max-width: 900px) {
+    div.float-box{
+        display: block;
+    }
+#ul{
+    visibility: visible;
+}    
+
+body.mainbody{
+	background-color: #99ccff;	
+    background-image: none;
+    background-size: 100% 100%;
+}
+.right_panel{ 
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+
+}
+.right_container{
+    height: 600px;
+}
+
+}
+
+/* -------------------500px------------------------------ */
+
+
+
+@media screen and (max-width: 600px) {
+    div.float-box{
+        display: block;
+        margin-left: 20%;
+    }
+    img.img{
+        width: 250px;
+    }
+#ul{
+    visibility: hidden;
+}
+.right_panel{ 
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+
+}
+.right_container{
+    height: 600px;
+}
+
+div.headnav{
+    margin-top: 0;
+    width: 100%;
+}
+.headnav:before {
+    /*content: '\2630'; /* THE MAIN CULPRIT ON WHY IT HAVE A 3 LINE BARS
+    display: block;
+    line-height: 40px;
+    font-size: 1.4em;
+    cursor: pointer;
+    background: #222;
+    color: white;
+    padding-left: 92%;*/
+
+    content: '\2630'; /* THE MAIN CULPRIT ON WHY DOES IT HAVE A 3 LINE BARS*/
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: -50px;
+    line-height: 40px;
+    font-size: 1.4em;
+    cursor: pointer;
+    color: white;
+
+  }
+.headlink{
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+img.headline{
+    width: 100%; 
+    margin-left: 0;
+
+}
+.headnav{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+
+.headnav ul{
+    background: #222;
+    margin-right: 0;
+    width: 100%;
+}
+
+.headnav ul li{
+    float: none;
+    border-top: 1px solid #333;
+}
+.headnav ul li a{
+    padding: 10px 3%;
+    line-height: 20px;
+
+}
+
+li.headlink:hover{
+    background-color: #bfbfbf;
+}
+
+div.block-body{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+h4.bulletin-title{
+    width: 90%;
+
+}
+img.homeimg{
+    width: 90%;
+    height: 320px;
+}
+
+div.home-layout{
+    border-right: none;
+    width: 100%;
+}
+li.logout{
+    float: none;
+    margin-bottom: 50px;
+}
+p.proj-descript{
+    width: 90%;
+}
+table.doctable{
+    margin: 0px;
+    width: 90%;
+}
+tr.doctr{
+    vertical-align: text-top;
+    
+}
+
+ul.ulnav{
+        height: auto;
+
+}
+
+a.navlink {
+   height: auto;
+
+
+}
+
+li.headlink{
+  
+    height: auto;
+
+}
+
+}

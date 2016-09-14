@@ -1,0 +1,10 @@
+<table width="100%" border="1">
+<tr style="background-color: #999999;">
+<th align="center">#</th>    <th align="center"> Firstname </th>    <th align="center"> Middlename </th>    <th align="center"> Lastname </th>    <th align="center"> Gender </th>    <th align="center"> Birth Date </th>    </tr>    <tr class="listText">
+    <td align="center"> 1 </td>        <td align="left"> Kamila </td>        <td align="left"> Roperoga </td>        <td align="left"> Lagman </td>        <td align="left"> Female </td>        <td align="left"> 1955-11-02 </td>    </tr>    <tr class="listTextAlt">
+    <td align="center"> 2 </td>        <td align="left"> Guest </td>        <td align="left"> Who </td>        <td align="left"> Am I </td>        <td align="left"> Male </td>        <td align="left"> 2016-07-23 </td>    </tr>    <tr class="listText">
+    <td align="center"> 3 </td>        <td align="left"> Daren Mar </td>        <td align="left"> Galindo </td>        <td align="left"> Cabral </td>        <td align="left"> Male </td>        <td align="left"> 1997-01-05 </td>    </tr>    <tr class="listTextAlt">
+    <td align="center"> 4 </td>        <td align="left"> Jhonel </td>        <td align="left"> Rivera </td>        <td align="left"> Deluna </td>        <td align="left"> Male </td>        <td align="left"> 1996-02-12 </td>    </tr>    <tr class="listText">
+    <td align="center"> 5 </td>        <td align="left"> sampl </td>        <td align="left"> sample </td>        <td align="left"> sample </td>        <td align="left"> Male </td>        <td align="left"> 2016-08-07 </td>    </tr><tr style="background-color: #999999;">
+<th align="center">5</th>    <th align="left">  </th>    <th align="left">  </th>    <th align="left">  </th>    <th align="left">  </th>    <th align="left">  </th></tr>
+</table>

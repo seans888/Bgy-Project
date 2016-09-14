@@ -1,0 +1,591 @@
+*{
+    padding: 0px;
+    margin-top: 0px;
+    margin: 0px;
+    font-family: calibri;
+}
+body.body{
+    background-color: white !important;
+}
+
+header.header1{
+    height: 60px;
+    border-bottom: 1px solid gray;
+}
+
+div.headbar{
+    background-color: white;
+    height: 60px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+div.headnav{
+float: right;
+margin-top: 20px;    
+
+}
+a.navlink, div.dropdown{
+    display: inline-block;
+    margin-left: 20px;
+}
+div.dropdown{
+    width: 100px;
+}
+div.dropdown:hover div.dropdown-content{
+    display: block;
+}
+div.dropdown-content{
+    position: absolute;
+    display: none;
+}
+img.logo{
+    height: 60px;
+    margin-left: 50px;
+}
+p.headtitle{
+    position: absolute;
+    top: 10px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+div.fold-1{
+    height: 650px;
+    background-image: url('fold3.jpg');
+    background-color: #99ccff;
+}
+
+div.fold-2{
+    height: 600px;
+    background-image: url('swirl.png');
+    background-attachment: fixed;
+}
+div.fold-3{
+    height: 600px;
+    background-attachment: fixed;
+    background-image: url('fold1.jpg');
+}
+h3.fold-3-head{
+    width: 640px;
+    color: white;
+}
+
+div.foot-fold{
+    height: 500px;
+    background: none;
+    background-color: gray;
+    width: 100%;
+    background-image: url('grey.png');
+    color: white;
+}
+div.fold-4{
+    height: 600px;
+    background-image: url('linedpaper.png');
+}
+
+img.homeimg{
+    width: 250px;
+    height: 200px;
+}
+
+div.bulletin-board{
+    margin-top: 40px;
+    height: 400px;
+    width: 300px;
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px gray;
+}
+div.descript{
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 25px;
+
+}
+h4.bulletin-title{
+    background-color: #99ccff;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-left: 30px;
+   width: 250px;
+}
+
+.fold-head{
+    padding-top: 20px;
+    font-size: 32pt;
+}
+
+.center-obj{
+    margin-left: auto;
+    margin-right: auto;
+}
+h3.fold-2-head{
+    width: 520px;
+}
+img.homeimg{
+    width: 200px;
+    border-radius: 5px;
+}
+
+button{
+    border: none;
+    background: none;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+button.left-btn{
+    background-image: url('left.png');
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 250px;
+    margin-left: 2%;
+}
+button.right-btn{
+    background-image: url('right.png');
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 2%;
+    margin-top: 250px;
+}
+
+p.copyrights{
+    margin-left: 50px;
+    color: white;
+    float: left;
+
+}
+footer.footer{
+    background-image: url('foot.png');
+    height: 100px;
+    padding-top: 20px;
+}
+div.ftnav{
+    float: right;
+    margin-right: 20px;
+}
+
+div.bulletin-contents{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 1250px;
+}
+.w3nav{
+    margin-top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px !important;
+}
+/*.
+.mySlides {display:none}
+.w3-left, .w3-fol, .w3-badge {
+    cursor:pointer;
+    font-size: 30pt;
+}
+.w3-left, .w3-right{
+    border: 2px solid gray;
+}
+w3-badge {height:15px;width:15px;padding:0;margin-left:2px;margin-top: 0px;
+}*/
+
+body.mainbody{
+    background-image: url('samplebackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header.header{
+    background-color: white;
+    width: 100%;
+}
+
+div.right_container{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 100px;
+    border-radius: 10px;
+    width: 450px;
+    height: 500px;
+    background-color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px 0;
+}
+div.headevent{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+h2.main-news-title{
+    font-weight: bold;
+    width: 435px;
+    font-size: 26pt;
+}
+p.main-news-desc{
+    font-size: 14pt;
+    width: 435px;
+}
+h4.main-news-date{
+
+}
+a.main-news-more{
+    color: #e6e6e6;
+
+}
+
+div.eventmain{
+    border: 5px solid lightblue;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 500px;    
+    height: 300px;
+    width: 500px;
+    box-shadow: 5px 5px 10px lightblue;
+}
+img.headline {
+    width: 100%;
+    height: 100%;
+
+}
+
+h3.fold-4-head{
+    width: 550px;
+}
+
+h3.fold-5-head{
+    width: 500px;
+    color: white;
+}
+
+hr.hr{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    color: black;
+    width: 200px;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px solid #999999;
+    border-radius: 10px;
+}
+
+ul.ul-col-2, ul.ul-col-1{
+    width: 550px;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+div.service-board{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+}
+div.doc-icon{
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+    background-image: url('docico.png');
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.icon{
+    background-image: url('icontainer.png');
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+}
+div.service-desc{
+    margin-left: 20px;
+    width: 400px;
+}
+
+div.icon, div.service-desc{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+div.com-icon{
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+    background-image: url('repico.png');
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.cal-icon{
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+    background-image: url('calico.png');
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.map-icon{
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+    background-image: url('navico.png');
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.main-news{
+
+    padding: 15px;
+    width: 550px;
+    max-width: 550px;
+    color: white;
+    position: absolute;
+    margin-top: 150px;
+    border-top: 15px solid lightblue;
+    padding-right: 100px;
+    animation-name: slidetoRight;
+    animation-duration: 2s;
+}
+
+@keyframes slidetoRight {
+    from {transform:translate(-550px);}
+    to {transform:translate(0px);}
+}
+
+div.eventmain{
+    border: 5px solid lightblue;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 500px;    
+    height: 450px;
+    width: 700px;
+    box-shadow: 5px 5px 10px lightblue;
+    animation-name: slidetoLeft;
+    animation-duration: 2s;
+}
+
+@keyframes slidetoLeft {
+    from {transform:translate(100%);}
+    to {transform:translate(0px);}
+}
+li{
+    list-style: none;
+    text-align: justify;
+}
+ul.list-of-doc{
+    vertical-align: text-top;
+    display: inline-block;
+    height: 480px;
+    width: 300px;
+    max-width: 300px;
+    margin-top: 50px;
+    border: 1px solid white; 
+    
+}
+
+div.div-list-doc{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+}
+
+li.li-doc-head{
+    text-align: center;
+    padding-top: 5px;
+    height: 30px;
+    font-size: 14pt;
+    background-color: #99ccff;
+  background: #99ccff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(90deg, #99ccff, #3399ff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(90deg, #99ccff, #3399ff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(90deg, #99ccff, #3399ff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(90deg, #99ccff, #3399ff); /* Standard syntax */
+}
+
+li.li-doc-req{
+    padding: 5px;
+    height: 120px;  
+    background-color: #e6e6e6;
+    text-align: center;
+}
+li.li-doc-desc{
+    text-align: center;
+    padding: 10px;
+    height: 220px;
+    background-color: lightgray;
+}
+li.li-doc-btn{
+    text-align: center;
+    height: 20px;
+    background-color: #e6e6e6;
+    padding: 20px;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: inherit;
+font-weight: 500;
+line-height: 1.1;
+color: inherit;
+}
+
+h1.doc-headings{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+a.doc-href{
+    text-align: center;
+    text-decoration: none;
+    background-color: #99ccff;
+    border: 1px solid #99ccff;
+    color: blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+a.doc-href:hover{
+    color: white;
+    background-color: #3399ff;
+}
+
+div.div-calendar{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.fold-body{
+    padding-top: 50px;
+    background-color: white;
+    background-image: url('linedpaper.png');
+    padding-bottom: 100px;
+
+}
+
+fieldset.container_invisible{
+    background-color: #e6e6e6 !important;
+}
+
+fieldset.top{
+    display: none;
+}
+fieldset.bottom{
+    background: none !important;
+}
+
+h3.fold-complain-head{
+    font-size: 32pt;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+p.complain-desc{
+    margin-top: 10px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div.pageHeaderDiv{
+    display: none;
+}
+
+div.arrow-prev{
+    border: 1px solid black;
+    float: left;
+    height: 99%;
+    width: 50px;
+    background-color: lightgray;
+    opacity: .3;
+}
+div.arrow-next{
+    border: 1px solid black;
+    float: right;
+    height: 99%;
+    width: 50px;
+    background-color: lightgray;
+    opacity: .3;
+
+}
+
+div.ar-pr-hover:hover{
+    background-color: lightgray;
+    opacity: .8;
+    cursor: pointer;
+
+}
+
+p.arrowbtn{ 
+    font-size:  42px;
+    margin-top: 250px;
+    margin-left: 15px;
+}
+
+div.event-slide{
+    display: none;
+}
+
+div#event-slide-1{
+    display: block;
+}
+
+div.health-fold{
+    width: 1250px;
+}
+
+div.evac-center{
+    width: 700px;
+    height: 400px;
+    margin-top: 50px;
+    border-right: 1px solid gray;
+    display: inline-block;
+}
+div.google-map{
+    width: 450px;
+    display: inline-block;
+}
+
+div.map-block{
+    width: 1200px;
+}
+
+h3.evac-h3{
+    width: 160px;
+}
+h3.google-h3{
+    width: 300px;
+}
+
+div.block-body{
+    background-image: url('linedpaper.png');
+}
+
+img.showimg{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+div.divimg{
+    width: 850px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
